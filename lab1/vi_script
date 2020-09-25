@@ -1,0 +1,3 @@
+#!/bin/bash
+awk '{ if ( $6 == "(WW)" ) {$6 = "Warning: "; print $0 } } ' /var/log/syslog > full.log
+awk '{ if ( $6 == "(II)" ) {$6 = "Information: "; print $0 } }' /var/log/syslog >> full.log

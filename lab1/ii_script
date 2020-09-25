@@ -1,0 +1,9 @@
+#!/bin/bash
+C=""
+read A
+while [[ $A != "q" ]]
+do
+C=$C$A
+read A 
+done
+echo $C

@@ -1,0 +1,2 @@
+#!/bin/bash
+man bash | grep -o "[[:alpha:]]\{4,\}"

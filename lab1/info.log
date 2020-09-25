@@ -1,0 +1,548 @@
+Sep 21 01:51:32 kirilloid NetworkManager[871]: <info>  [1600642292.9421] agent-manager: agent[849a9fa2a6911db6,:1.85/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 21 02:29:21 kirilloid NetworkManager[871]: <info>  [1600644561.4212] manager: sleep: sleep requested (sleeping: no  enabled: yes)
+Sep 21 02:29:21 kirilloid NetworkManager[871]: <info>  [1600644561.4213] device (enp6s0f1): state change: unavailable -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Sep 21 02:29:21 kirilloid NetworkManager[871]: <info>  [1600644561.4433] device (p2p-dev-wlp0s20f3): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Sep 21 02:29:21 kirilloid NetworkManager[871]: <info>  [1600644561.4446] manager: NetworkManager state is now ASLEEP
+Sep 21 02:29:21 kirilloid NetworkManager[871]: <info>  [1600644561.4453] device (enx429c28d09ff4): state change: activated -> deactivating (reason 'sleeping', sys-iface-state: 'managed')
+Sep 21 02:29:22 kirilloid NetworkManager[871]: <info>  [1600644562.1220] device (enx429c28d09ff4): state change: deactivating -> disconnected (reason 'sleeping', sys-iface-state: 'managed')
+Sep 21 02:29:22 kirilloid NetworkManager[871]: <info>  [1600644562.1364] dhcp4 (enx429c28d09ff4): canceled DHCP transaction
+Sep 21 02:29:22 kirilloid NetworkManager[871]: <info>  [1600644562.1364] dhcp4 (enx429c28d09ff4): state changed bound -> done
+Sep 21 02:29:22 kirilloid NetworkManager[871]: <info>  [1600644562.1464] device (enx429c28d09ff4): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Sep 21 09:58:55 kirilloid NetworkManager[871]: <info>  [1600671535.0602] manager: sleep: wake requested (sleeping: yes  enabled: yes)
+Sep 21 09:58:55 kirilloid NetworkManager[871]: <info>  [1600671535.0605] device (wlp0s20f3): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Sep 21 09:58:55 kirilloid NetworkManager[871]: <info>  [1600671535.0812] device (enp6s0f1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Sep 21 09:58:55 kirilloid NetworkManager[871]: <info>  [1600671535.1984] device (wlp0s20f3): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Sep 21 09:58:55 kirilloid NetworkManager[871]: <info>  [1600671535.4117] device (p2p-dev-wlp0s20f3): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Sep 21 09:58:55 kirilloid NetworkManager[871]: <info>  [1600671535.4131] manager: NetworkManager state is now DISCONNECTED
+Sep 21 09:58:55 kirilloid NetworkManager[871]: <info>  [1600671535.4806] sup-iface[0x556f74bb12e0,wlp0s20f3]: supports 5 scan SSIDs
+Sep 21 09:58:55 kirilloid NetworkManager[871]: <info>  [1600671535.4822] device (wlp0s20f3): supplicant interface state: starting -> ready
+Sep 21 09:58:55 kirilloid NetworkManager[871]: <info>  [1600671535.4824] device (p2p-dev-wlp0s20f3): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Sep 21 09:58:55 kirilloid NetworkManager[871]: <info>  [1600671535.4833] device (wlp0s20f3): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Sep 21 09:58:57 kirilloid ModemManager[1007]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:14.3': not supported by any plugin
+Sep 21 09:58:57 kirilloid ModemManager[1007]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:1d.0/0000:06:00.1': not supported by any plugin
+Sep 21 09:59:08 kirilloid NetworkManager[871]: <info>  [1600671548.5048] agent-manager: agent[1524a0fb697cf205,:1.85/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 21 09:59:31 kirilloid NetworkManager[871]: <info>  [1600671571.1224] manager: (eth0): new Ethernet device (/org/freedesktop/NetworkManager/Devices/16)
+Sep 21 09:59:31 kirilloid NetworkManager[871]: <info>  [1600671571.2728] device (eth0): interface index 15 renamed iface from 'eth0' to 'enx429c28d09ff4'
+Sep 21 09:59:31 kirilloid NetworkManager[871]: <info>  [1600671571.6774] device (enx429c28d09ff4): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Sep 21 09:59:31 kirilloid NetworkManager[871]: <info>  [1600671571.6845] settings: (enx429c28d09ff4): created default wired connection 'Проводное соединение 2'
+Sep 21 09:59:32 kirilloid NetworkManager[871]: <info>  [1600671572.5866] device (enx429c28d09ff4): carrier: link connected
+Sep 21 09:59:32 kirilloid NetworkManager[871]: <info>  [1600671572.5884] device (enx429c28d09ff4): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Sep 21 09:59:32 kirilloid NetworkManager[871]: <info>  [1600671572.5902] policy: auto-activating connection 'Проводное соединение 2' (4565acb5-82e2-3faa-b088-94c0bba8cc5a)
+Sep 21 09:59:32 kirilloid NetworkManager[871]: <info>  [1600671572.5909] device (enx429c28d09ff4): Activation: starting connection 'Проводное соединение 2' (4565acb5-82e2-3faa-b088-94c0bba8cc5a)
+Sep 21 09:59:32 kirilloid NetworkManager[871]: <info>  [1600671572.5911] device (enx429c28d09ff4): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Sep 21 09:59:32 kirilloid NetworkManager[871]: <info>  [1600671572.5915] manager: NetworkManager state is now CONNECTING
+Sep 21 09:59:32 kirilloid NetworkManager[871]: <info>  [1600671572.5917] device (enx429c28d09ff4): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Sep 21 09:59:32 kirilloid NetworkManager[871]: <info>  [1600671572.5921] device (enx429c28d09ff4): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Sep 21 09:59:32 kirilloid NetworkManager[871]: <info>  [1600671572.5924] dhcp4 (enx429c28d09ff4): activation: beginning transaction (timeout in 45 seconds)
+Sep 21 09:59:32 kirilloid NetworkManager[871]: <info>  [1600671572.9246] dhcp4 (enx429c28d09ff4): option dhcp_lease_time      => '85536'
+Sep 21 09:59:32 kirilloid NetworkManager[871]: <info>  [1600671572.9247] dhcp4 (enx429c28d09ff4): option domain_name_servers  => '172.20.10.1'
+Sep 21 09:59:32 kirilloid NetworkManager[871]: <info>  [1600671572.9247] dhcp4 (enx429c28d09ff4): option expiry               => '1600757108'
+Sep 21 09:59:32 kirilloid NetworkManager[871]: <info>  [1600671572.9247] dhcp4 (enx429c28d09ff4): option ip_address           => '172.20.10.11'
+Sep 21 09:59:32 kirilloid NetworkManager[871]: <info>  [1600671572.9247] dhcp4 (enx429c28d09ff4): option next_server          => '172.20.10.1'
+Sep 21 09:59:32 kirilloid NetworkManager[871]: <info>  [1600671572.9248] dhcp4 (enx429c28d09ff4): option requested_broadcast_address => '1'
+Sep 21 09:59:32 kirilloid NetworkManager[871]: <info>  [1600671572.9248] dhcp4 (enx429c28d09ff4): option requested_domain_name => '1'
+Sep 21 09:59:32 kirilloid NetworkManager[871]: <info>  [1600671572.9248] dhcp4 (enx429c28d09ff4): option requested_domain_name_servers => '1'
+Sep 21 09:59:32 kirilloid NetworkManager[871]: <info>  [1600671572.9248] dhcp4 (enx429c28d09ff4): option requested_domain_search => '1'
+Sep 21 09:59:32 kirilloid NetworkManager[871]: <info>  [1600671572.9248] dhcp4 (enx429c28d09ff4): option requested_host_name  => '1'
+Sep 21 09:59:32 kirilloid NetworkManager[871]: <info>  [1600671572.9248] dhcp4 (enx429c28d09ff4): option requested_interface_mtu => '1'
+Sep 21 09:59:32 kirilloid NetworkManager[871]: <info>  [1600671572.9249] dhcp4 (enx429c28d09ff4): option requested_ms_classless_static_routes => '1'
+Sep 21 09:59:32 kirilloid NetworkManager[871]: <info>  [1600671572.9249] dhcp4 (enx429c28d09ff4): option requested_nis_domain => '1'
+Sep 21 09:59:32 kirilloid NetworkManager[871]: <info>  [1600671572.9249] dhcp4 (enx429c28d09ff4): option requested_nis_servers => '1'
+Sep 21 09:59:32 kirilloid NetworkManager[871]: <info>  [1600671572.9249] dhcp4 (enx429c28d09ff4): option requested_ntp_servers => '1'
+Sep 21 09:59:32 kirilloid NetworkManager[871]: <info>  [1600671572.9249] dhcp4 (enx429c28d09ff4): option requested_rfc3442_classless_static_routes => '1'
+Sep 21 09:59:32 kirilloid NetworkManager[871]: <info>  [1600671572.9249] dhcp4 (enx429c28d09ff4): option requested_root_path  => '1'
+Sep 21 09:59:32 kirilloid NetworkManager[871]: <info>  [1600671572.9250] dhcp4 (enx429c28d09ff4): option requested_routers    => '1'
+Sep 21 09:59:32 kirilloid NetworkManager[871]: <info>  [1600671572.9250] dhcp4 (enx429c28d09ff4): option requested_static_routes => '1'
+Sep 21 09:59:32 kirilloid NetworkManager[871]: <info>  [1600671572.9250] dhcp4 (enx429c28d09ff4): option requested_subnet_mask => '1'
+Sep 21 09:59:32 kirilloid NetworkManager[871]: <info>  [1600671572.9250] dhcp4 (enx429c28d09ff4): option requested_time_offset => '1'
+Sep 21 09:59:32 kirilloid NetworkManager[871]: <info>  [1600671572.9250] dhcp4 (enx429c28d09ff4): option requested_wpad       => '1'
+Sep 21 09:59:32 kirilloid NetworkManager[871]: <info>  [1600671572.9250] dhcp4 (enx429c28d09ff4): option routers              => '172.20.10.1'
+Sep 21 09:59:32 kirilloid NetworkManager[871]: <info>  [1600671572.9250] dhcp4 (enx429c28d09ff4): option subnet_mask          => '255.255.255.240'
+Sep 21 09:59:32 kirilloid NetworkManager[871]: <info>  [1600671572.9251] dhcp4 (enx429c28d09ff4): state changed unknown -> bound
+Sep 21 09:59:32 kirilloid NetworkManager[871]: <info>  [1600671572.9280] device (enx429c28d09ff4): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Sep 21 09:59:33 kirilloid NetworkManager[871]: <info>  [1600671573.0376] device (enx429c28d09ff4): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Sep 21 09:59:33 kirilloid NetworkManager[871]: <info>  [1600671573.0384] device (enx429c28d09ff4): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Sep 21 09:59:33 kirilloid NetworkManager[871]: <info>  [1600671573.0396] manager: NetworkManager state is now CONNECTED_LOCAL
+Sep 21 09:59:33 kirilloid NetworkManager[871]: <info>  [1600671573.0429] manager: NetworkManager state is now CONNECTED_SITE
+Sep 21 09:59:33 kirilloid NetworkManager[871]: <info>  [1600671573.0431] policy: set 'Проводное соединение 2' (enx429c28d09ff4) as default for IPv4 routing and DNS
+Sep 21 09:59:33 kirilloid NetworkManager[871]: <info>  [1600671573.0442] device (enx429c28d09ff4): Activation: successful, device activated.
+Sep 21 09:59:34 kirilloid ModemManager[1007]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:14.0/usb1/1-3': not supported by any plugin
+Sep 21 09:59:39 kirilloid NetworkManager[871]: <info>  [1600671579.9479] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 21 10:02:03 kirilloid ModemManager[1007]: <info>  Caught signal, shutting down...
+Sep 21 15:08:28 kirilloid NetworkManager[900]: <info>  [1600690108.5546] NetworkManager (version 1.22.10) is starting... (for the first time)
+Sep 21 15:08:28 kirilloid NetworkManager[900]: <info>  [1600690108.5547] Read config: /etc/NetworkManager/NetworkManager.conf (lib: 10-dns-resolved.conf, 20-connectivity-ubuntu.conf, no-mac-addr-change.conf) (run: 10-globally-managed-devices.conf) (etc: default-wifi-powersave-on.conf)
+Sep 21 15:08:28 kirilloid NetworkManager[900]: <info>  [1600690108.5851] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+Sep 21 15:08:28 kirilloid NetworkManager[900]: <info>  [1600690108.7960] manager[0x55b563db0040]: monitoring kernel firmware directory '/lib/firmware'.
+Sep 21 15:08:28 kirilloid NetworkManager[900]: <info>  [1600690108.7961] monitoring ifupdown state file '/run/network/ifstate'.
+Sep 21 15:08:28 kirilloid NetworkManager[900]: <info>  [1600690108.8289] hostname: hostname: using hostnamed
+Sep 21 15:08:28 kirilloid NetworkManager[900]: <info>  [1600690108.8290] hostname: hostname changed from (none) to "kirilloid"
+Sep 21 15:08:28 kirilloid NetworkManager[900]: <info>  [1600690108.8296] dns-mgr[0x55b563d95290]: init: dns=systemd-resolved rc-manager=symlink, plugin=systemd-resolved
+Sep 21 15:08:28 kirilloid NetworkManager[900]: <info>  [1600690108.8317] rfkill3: found Wi-Fi radio killswitch (at /sys/devices/pci0000:00/0000:00:14.3/ieee80211/phy0/rfkill3) (driver iwlwifi)
+Sep 21 15:08:29 kirilloid NetworkManager[900]: <info>  [1600690108.8320] rfkill1: found Wi-Fi radio killswitch (at /sys/devices/platform/acer-wmi/rfkill/rfkill1) (platform driver acer-wmi)
+Sep 21 15:08:29 kirilloid NetworkManager[900]: <info>  [1600690108.8540] manager[0x55b563db0040]: rfkill: Wi-Fi hardware radio set enabled
+Sep 21 15:08:29 kirilloid NetworkManager[900]: <info>  [1600690108.8541] manager[0x55b563db0040]: rfkill: WWAN hardware radio set enabled
+Sep 21 15:08:29 kirilloid ModemManager[1030]: <info>  ModemManager (version 1.12.8) starting in system bus...
+Sep 21 15:08:30 kirilloid NetworkManager[900]: <info>  [1600690110.4223] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-bluetooth.so)
+Sep 21 15:08:30 kirilloid NetworkManager[900]: <info>  [1600690110.4546] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-adsl.so)
+Sep 21 15:08:30 kirilloid NetworkManager[900]: <info>  [1600690110.9066] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wwan.so)
+Sep 21 15:08:31 kirilloid NetworkManager[900]: <info>  [1600690111.0284] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wifi.so)
+Sep 21 15:08:31 kirilloid NetworkManager[900]: <info>  [1600690111.7873] Loaded device plugin: NMTeamFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-team.so)
+Sep 21 15:08:31 kirilloid NetworkManager[900]: <info>  [1600690111.7879] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+Sep 21 15:08:31 kirilloid NetworkManager[900]: <info>  [1600690111.7882] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+Sep 21 15:08:31 kirilloid NetworkManager[900]: <info>  [1600690111.7883] manager: Networking is enabled by state file
+Sep 21 15:08:31 kirilloid NetworkManager[900]: <info>  [1600690111.7885] dhcp-init: Using DHCP client 'internal'
+Sep 21 15:08:31 kirilloid NetworkManager[900]: <info>  [1600690111.9053] settings: Loaded settings plugin: ifupdown ("/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-settings-plugin-ifupdown.so")
+Sep 21 15:08:31 kirilloid NetworkManager[900]: <info>  [1600690111.9053] settings: Loaded settings plugin: keyfile (internal)
+Sep 21 15:08:31 kirilloid NetworkManager[900]: <info>  [1600690111.9053] ifupdown: management mode: unmanaged
+Sep 21 15:08:32 kirilloid NetworkManager[900]: <info>  [1600690112.7341] device (lo): carrier: link connected
+Sep 21 15:08:32 kirilloid NetworkManager[900]: <info>  [1600690112.7347] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+Sep 21 15:08:32 kirilloid NetworkManager[900]: <info>  [1600690112.7370] manager: (enp6s0f1): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Sep 21 15:08:32 kirilloid NetworkManager[900]: <info>  [1600690112.9354] settings: (enp6s0f1): created default wired connection 'Проводное соединение 1'
+Sep 21 15:08:32 kirilloid NetworkManager[900]: <info>  [1600690112.9365] device (enp6s0f1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Sep 21 15:08:33 kirilloid NetworkManager[900]: <info>  [1600690113.2128] device (wlp0s20f3): driver supports Access Point (AP) mode
+Sep 21 15:08:33 kirilloid NetworkManager[900]: <info>  [1600690113.2138] manager: (wlp0s20f3): new 802.11 Wi-Fi device (/org/freedesktop/NetworkManager/Devices/3)
+Sep 21 15:08:33 kirilloid NetworkManager[900]: <info>  [1600690113.2153] device (wlp0s20f3): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Sep 21 15:08:33 kirilloid NetworkManager[900]: <info>  [1600690113.7249] modem-manager: ModemManager available
+Sep 21 15:08:33 kirilloid NetworkManager[900]: <info>  [1600690113.7269] supplicant: wpa_supplicant running
+Sep 21 15:08:33 kirilloid NetworkManager[900]: <info>  [1600690113.7270] device (wlp0s20f3): supplicant interface state: init -> starting
+Sep 21 15:08:34 kirilloid NetworkManager[900]: <info>  [1600690114.0899] sup-iface[0x55b563dbe920,wlp0s20f3]: supports 5 scan SSIDs
+Sep 21 15:08:34 kirilloid NetworkManager[900]: <info>  [1600690114.0910] device (wlp0s20f3): supplicant interface state: starting -> ready
+Sep 21 15:08:34 kirilloid NetworkManager[900]: <info>  [1600690114.0912] Wi-Fi P2P device controlled by interface wlp0s20f3 created
+Sep 21 15:08:34 kirilloid NetworkManager[900]: <info>  [1600690114.0917] manager: (p2p-dev-wlp0s20f3): new 802.11 Wi-Fi P2P device (/org/freedesktop/NetworkManager/Devices/4)
+Sep 21 15:08:34 kirilloid NetworkManager[900]: <info>  [1600690114.0922] device (p2p-dev-wlp0s20f3): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Sep 21 15:08:34 kirilloid NetworkManager[900]: <info>  [1600690114.0934] device (p2p-dev-wlp0s20f3): state change: unavailable -> disconnected (reason 'none', sys-iface-state: 'managed')
+Sep 21 15:08:34 kirilloid NetworkManager[900]: <info>  [1600690114.0940] device (wlp0s20f3): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Sep 21 15:08:34 kirilloid ModemManager[1030]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:14.3': not supported by any plugin
+Sep 21 15:08:34 kirilloid ModemManager[1030]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:1d.0/0000:06:00.1': not supported by any plugin
+Sep 21 15:08:39 kirilloid NetworkManager[900]: <info>  [1600690119.2121] manager: startup complete
+Sep 21 17:31:19 kirilloid ModemManager[1054]: <info>  ModemManager (version 1.12.8) starting in system bus...
+Sep 21 17:31:22 kirilloid NetworkManager[920]: <info>  [1600698678.8094] NetworkManager (version 1.22.10) is starting... (for the first time)
+Sep 21 17:31:22 kirilloid NetworkManager[920]: <info>  [1600698678.8095] Read config: /etc/NetworkManager/NetworkManager.conf (lib: 10-dns-resolved.conf, 20-connectivity-ubuntu.conf, no-mac-addr-change.conf) (run: 10-globally-managed-devices.conf) (etc: default-wifi-powersave-on.conf)
+Sep 21 17:31:22 kirilloid NetworkManager[920]: <info>  [1600698678.9135] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+Sep 21 17:31:22 kirilloid NetworkManager[920]: <info>  [1600698679.2285] manager[0x5594a211e020]: monitoring kernel firmware directory '/lib/firmware'.
+Sep 21 17:31:22 kirilloid NetworkManager[920]: <info>  [1600698679.2286] monitoring ifupdown state file '/run/network/ifstate'.
+Sep 21 17:31:22 kirilloid NetworkManager[920]: <info>  [1600698679.3168] hostname: hostname: using hostnamed
+Sep 21 17:31:22 kirilloid NetworkManager[920]: <info>  [1600698679.3169] hostname: hostname changed from (none) to "kirilloid"
+Sep 21 17:31:22 kirilloid NetworkManager[920]: <info>  [1600698679.3174] dns-mgr[0x5594a2103290]: init: dns=systemd-resolved rc-manager=symlink, plugin=systemd-resolved
+Sep 21 17:31:22 kirilloid NetworkManager[920]: <info>  [1600698679.3195] rfkill3: found Wi-Fi radio killswitch (at /sys/devices/pci0000:00/0000:00:14.3/ieee80211/phy0/rfkill3) (driver iwlwifi)
+Sep 21 17:31:22 kirilloid NetworkManager[920]: <info>  [1600698679.3198] rfkill0: found Wi-Fi radio killswitch (at /sys/devices/platform/acer-wmi/rfkill/rfkill0) (platform driver acer-wmi)
+Sep 21 17:31:22 kirilloid NetworkManager[920]: <info>  [1600698679.3365] manager[0x5594a211e020]: rfkill: Wi-Fi hardware radio set enabled
+Sep 21 17:31:22 kirilloid NetworkManager[920]: <info>  [1600698679.3365] manager[0x5594a211e020]: rfkill: WWAN hardware radio set enabled
+Sep 21 17:31:22 kirilloid NetworkManager[920]: <info>  [1600698682.3428] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-bluetooth.so)
+Sep 21 17:31:22 kirilloid NetworkManager[920]: <info>  [1600698682.4872] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-adsl.so)
+Sep 21 17:31:22 kirilloid NetworkManager[920]: <info>  [1600698682.5290] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wwan.so)
+Sep 21 17:31:22 kirilloid NetworkManager[920]: <info>  [1600698682.6920] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wifi.so)
+Sep 21 17:31:23 kirilloid NetworkManager[920]: <info>  [1600698683.6881] Loaded device plugin: NMTeamFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-team.so)
+Sep 21 17:31:23 kirilloid NetworkManager[920]: <info>  [1600698683.6886] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+Sep 21 17:31:23 kirilloid NetworkManager[920]: <info>  [1600698683.6889] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+Sep 21 17:31:23 kirilloid NetworkManager[920]: <info>  [1600698683.6890] manager: Networking is enabled by state file
+Sep 21 17:31:23 kirilloid NetworkManager[920]: <info>  [1600698683.6892] dhcp-init: Using DHCP client 'internal'
+Sep 21 17:31:24 kirilloid NetworkManager[920]: <info>  [1600698684.6499] settings: Loaded settings plugin: ifupdown ("/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-settings-plugin-ifupdown.so")
+Sep 21 17:31:24 kirilloid NetworkManager[920]: <info>  [1600698684.6499] settings: Loaded settings plugin: keyfile (internal)
+Sep 21 17:31:24 kirilloid NetworkManager[920]: <info>  [1600698684.6500] ifupdown: management mode: unmanaged
+Sep 21 17:31:25 kirilloid NetworkManager[920]: <info>  [1600698685.6332] device (lo): carrier: link connected
+Sep 21 17:31:25 kirilloid NetworkManager[920]: <info>  [1600698685.6337] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+Sep 21 17:31:25 kirilloid NetworkManager[920]: <info>  [1600698685.6350] manager: (enp6s0f1): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Sep 21 17:31:25 kirilloid NetworkManager[920]: <info>  [1600698685.7313] settings: (enp6s0f1): created default wired connection 'Проводное соединение 1'
+Sep 21 17:31:25 kirilloid NetworkManager[920]: <info>  [1600698685.7661] device (enp6s0f1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Sep 21 17:31:26 kirilloid ModemManager[1054]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:14.3': not supported by any plugin
+Sep 21 17:31:26 kirilloid NetworkManager[920]: <info>  [1600698685.9101] device (wlp0s20f3): driver supports Access Point (AP) mode
+Sep 21 17:31:26 kirilloid ModemManager[1054]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:1d.0/0000:06:00.1': not supported by any plugin
+Sep 21 17:31:26 kirilloid NetworkManager[920]: <info>  [1600698685.9111] manager: (wlp0s20f3): new 802.11 Wi-Fi device (/org/freedesktop/NetworkManager/Devices/3)
+Sep 21 17:31:26 kirilloid NetworkManager[920]: <info>  [1600698685.9127] device (wlp0s20f3): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Sep 21 17:31:26 kirilloid NetworkManager[920]: <info>  [1600698686.1886] modem-manager: ModemManager available
+Sep 21 17:31:26 kirilloid NetworkManager[920]: <info>  [1600698686.1891] supplicant: wpa_supplicant running
+Sep 21 17:31:26 kirilloid NetworkManager[920]: <info>  [1600698686.1892] device (wlp0s20f3): supplicant interface state: init -> starting
+Sep 21 17:31:26 kirilloid NetworkManager[920]: <info>  [1600698686.4893] sup-iface[0x5594a212c100,wlp0s20f3]: supports 5 scan SSIDs
+Sep 21 17:31:26 kirilloid NetworkManager[920]: <info>  [1600698686.4907] device (wlp0s20f3): supplicant interface state: starting -> ready
+Sep 21 17:31:26 kirilloid NetworkManager[920]: <info>  [1600698686.4908] Wi-Fi P2P device controlled by interface wlp0s20f3 created
+Sep 21 17:31:26 kirilloid NetworkManager[920]: <info>  [1600698686.4913] manager: (p2p-dev-wlp0s20f3): new 802.11 Wi-Fi P2P device (/org/freedesktop/NetworkManager/Devices/4)
+Sep 21 17:31:26 kirilloid NetworkManager[920]: <info>  [1600698686.4917] device (p2p-dev-wlp0s20f3): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Sep 21 17:31:26 kirilloid NetworkManager[920]: <info>  [1600698686.4928] device (p2p-dev-wlp0s20f3): state change: unavailable -> disconnected (reason 'none', sys-iface-state: 'managed')
+Sep 21 17:31:26 kirilloid NetworkManager[920]: <info>  [1600698686.4933] device (wlp0s20f3): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Sep 21 17:31:31 kirilloid NetworkManager[920]: <info>  [1600698691.9098] manager: startup complete
+Sep 21 17:32:11 kirilloid NetworkManager[920]: <info>  [1600698731.5025] agent-manager: agent[b2829e2c7c0b3f90,:1.84/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 21 17:32:39 kirilloid NetworkManager[920]: <info>  [1600698759.7941] manager: (eth0): new Ethernet device (/org/freedesktop/NetworkManager/Devices/5)
+Sep 21 17:32:39 kirilloid NetworkManager[920]: <info>  [1600698759.8511] device (eth0): interface index 4 renamed iface from 'eth0' to 'enx429c28d09ff4'
+Sep 21 17:32:39 kirilloid NetworkManager[920]: <info>  [1600698759.8673] device (enx429c28d09ff4): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Sep 21 17:32:39 kirilloid NetworkManager[920]: <info>  [1600698759.8729] settings: (enx429c28d09ff4): created default wired connection 'Проводное соединение 2'
+Sep 21 17:32:41 kirilloid NetworkManager[920]: <info>  [1600698761.5160] device (enx429c28d09ff4): carrier: link connected
+Sep 21 17:32:41 kirilloid NetworkManager[920]: <info>  [1600698761.5170] device (enx429c28d09ff4): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Sep 21 17:32:41 kirilloid NetworkManager[920]: <info>  [1600698761.5192] policy: auto-activating connection 'Проводное соединение 2' (4565acb5-82e2-3faa-b088-94c0bba8cc5a)
+Sep 21 17:32:41 kirilloid NetworkManager[920]: <info>  [1600698761.5201] device (enx429c28d09ff4): Activation: starting connection 'Проводное соединение 2' (4565acb5-82e2-3faa-b088-94c0bba8cc5a)
+Sep 21 17:32:41 kirilloid NetworkManager[920]: <info>  [1600698761.5202] device (enx429c28d09ff4): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Sep 21 17:32:41 kirilloid NetworkManager[920]: <info>  [1600698761.5208] manager: NetworkManager state is now CONNECTING
+Sep 21 17:32:41 kirilloid NetworkManager[920]: <info>  [1600698761.5211] device (enx429c28d09ff4): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Sep 21 17:32:41 kirilloid NetworkManager[920]: <info>  [1600698761.5217] device (enx429c28d09ff4): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Sep 21 17:32:41 kirilloid NetworkManager[920]: <info>  [1600698761.5222] dhcp4 (enx429c28d09ff4): activation: beginning transaction (timeout in 45 seconds)
+Sep 21 17:32:42 kirilloid NetworkManager[920]: <info>  [1600698762.2172] dhcp4 (enx429c28d09ff4): option dhcp_lease_time      => '85536'
+Sep 21 17:32:42 kirilloid NetworkManager[920]: <info>  [1600698762.2173] dhcp4 (enx429c28d09ff4): option domain_name_servers  => '172.20.10.1'
+Sep 21 17:32:42 kirilloid NetworkManager[920]: <info>  [1600698762.2173] dhcp4 (enx429c28d09ff4): option expiry               => '1600784297'
+Sep 21 17:32:42 kirilloid NetworkManager[920]: <info>  [1600698762.2173] dhcp4 (enx429c28d09ff4): option ip_address           => '172.20.10.11'
+Sep 21 17:32:42 kirilloid NetworkManager[920]: <info>  [1600698762.2173] dhcp4 (enx429c28d09ff4): option next_server          => '172.20.10.1'
+Sep 21 17:32:42 kirilloid NetworkManager[920]: <info>  [1600698762.2174] dhcp4 (enx429c28d09ff4): option requested_broadcast_address => '1'
+Sep 21 17:32:42 kirilloid NetworkManager[920]: <info>  [1600698762.2174] dhcp4 (enx429c28d09ff4): option requested_domain_name => '1'
+Sep 21 17:32:42 kirilloid NetworkManager[920]: <info>  [1600698762.2174] dhcp4 (enx429c28d09ff4): option requested_domain_name_servers => '1'
+Sep 21 17:32:42 kirilloid NetworkManager[920]: <info>  [1600698762.2174] dhcp4 (enx429c28d09ff4): option requested_domain_search => '1'
+Sep 21 17:32:42 kirilloid NetworkManager[920]: <info>  [1600698762.2174] dhcp4 (enx429c28d09ff4): option requested_host_name  => '1'
+Sep 21 17:32:42 kirilloid NetworkManager[920]: <info>  [1600698762.2174] dhcp4 (enx429c28d09ff4): option requested_interface_mtu => '1'
+Sep 21 17:32:42 kirilloid NetworkManager[920]: <info>  [1600698762.2174] dhcp4 (enx429c28d09ff4): option requested_ms_classless_static_routes => '1'
+Sep 21 17:32:42 kirilloid NetworkManager[920]: <info>  [1600698762.2175] dhcp4 (enx429c28d09ff4): option requested_nis_domain => '1'
+Sep 21 17:32:42 kirilloid NetworkManager[920]: <info>  [1600698762.2175] dhcp4 (enx429c28d09ff4): option requested_nis_servers => '1'
+Sep 21 17:32:42 kirilloid NetworkManager[920]: <info>  [1600698762.2175] dhcp4 (enx429c28d09ff4): option requested_ntp_servers => '1'
+Sep 21 17:32:42 kirilloid NetworkManager[920]: <info>  [1600698762.2175] dhcp4 (enx429c28d09ff4): option requested_rfc3442_classless_static_routes => '1'
+Sep 21 17:32:42 kirilloid NetworkManager[920]: <info>  [1600698762.2175] dhcp4 (enx429c28d09ff4): option requested_root_path  => '1'
+Sep 21 17:32:42 kirilloid NetworkManager[920]: <info>  [1600698762.2175] dhcp4 (enx429c28d09ff4): option requested_routers    => '1'
+Sep 21 17:32:42 kirilloid NetworkManager[920]: <info>  [1600698762.2175] dhcp4 (enx429c28d09ff4): option requested_static_routes => '1'
+Sep 21 17:32:42 kirilloid NetworkManager[920]: <info>  [1600698762.2176] dhcp4 (enx429c28d09ff4): option requested_subnet_mask => '1'
+Sep 21 17:32:42 kirilloid NetworkManager[920]: <info>  [1600698762.2176] dhcp4 (enx429c28d09ff4): option requested_time_offset => '1'
+Sep 21 17:32:42 kirilloid NetworkManager[920]: <info>  [1600698762.2176] dhcp4 (enx429c28d09ff4): option requested_wpad       => '1'
+Sep 21 17:32:42 kirilloid NetworkManager[920]: <info>  [1600698762.2176] dhcp4 (enx429c28d09ff4): option routers              => '172.20.10.1'
+Sep 21 17:32:42 kirilloid NetworkManager[920]: <info>  [1600698762.2176] dhcp4 (enx429c28d09ff4): option subnet_mask          => '255.255.255.240'
+Sep 21 17:32:42 kirilloid NetworkManager[920]: <info>  [1600698762.2176] dhcp4 (enx429c28d09ff4): state changed unknown -> bound
+Sep 21 17:32:42 kirilloid NetworkManager[920]: <info>  [1600698762.2199] device (enx429c28d09ff4): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Sep 21 17:32:42 kirilloid NetworkManager[920]: <info>  [1600698762.3409] device (enx429c28d09ff4): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Sep 21 17:32:42 kirilloid NetworkManager[920]: <info>  [1600698762.3414] device (enx429c28d09ff4): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Sep 21 17:32:42 kirilloid NetworkManager[920]: <info>  [1600698762.3423] manager: NetworkManager state is now CONNECTED_LOCAL
+Sep 21 17:32:42 kirilloid NetworkManager[920]: <info>  [1600698762.3440] manager: NetworkManager state is now CONNECTED_SITE
+Sep 21 17:32:42 kirilloid NetworkManager[920]: <info>  [1600698762.3443] policy: set 'Проводное соединение 2' (enx429c28d09ff4) as default for IPv4 routing and DNS
+Sep 21 17:32:42 kirilloid NetworkManager[920]: <info>  [1600698762.3458] device (enx429c28d09ff4): Activation: successful, device activated.
+Sep 21 17:32:42 kirilloid ModemManager[1054]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:14.0/usb1/1-3': not supported by any plugin
+Sep 21 17:32:43 kirilloid NetworkManager[920]: <info>  [1600698763.7608] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 21 18:56:13 kirilloid NetworkManager[920]: <info>  [1600703773.2847] agent-manager: agent[3d7a4bffa59053ec,:1.84/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 21 19:21:33 kirilloid NetworkManager[920]: <info>  [1600705293.5138] agent-manager: agent[ef95df7b958a2ac2,:1.84/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 21 19:33:03 kirilloid NetworkManager[920]: <info>  [1600705983.6696] manager: NetworkManager state is now CONNECTED_SITE
+Sep 21 19:33:06 kirilloid NetworkManager[920]: <info>  [1600705986.2292] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 21 19:38:24 kirilloid NetworkManager[920]: <info>  [1600706304.6687] manager: NetworkManager state is now CONNECTED_SITE
+Sep 21 19:38:32 kirilloid NetworkManager[920]: <info>  [1600706312.1959] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 21 19:48:51 kirilloid NetworkManager[920]: <info>  [1600706931.6686] manager: NetworkManager state is now CONNECTED_SITE
+Sep 21 19:55:13 kirilloid NetworkManager[920]: <info>  [1600707313.2764] agent-manager: agent[22ccd5f4a9cc65b5,:1.84/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 21 20:12:06 kirilloid NetworkManager[920]: <info>  [1600708326.7378] agent-manager: agent[3af6983ad12f1136,:1.84/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 21 20:12:14 kirilloid NetworkManager[920]: <info>  [1600708334.8623] device (enx429c28d09ff4): state change: activated -> unmanaged (reason 'removed', sys-iface-state: 'removed')
+Sep 21 20:12:14 kirilloid NetworkManager[920]: <info>  [1600708334.8944] dhcp4 (enx429c28d09ff4): canceled DHCP transaction
+Sep 21 20:12:14 kirilloid NetworkManager[920]: <info>  [1600708334.8946] dhcp4 (enx429c28d09ff4): state changed bound -> done
+Sep 21 20:12:14 kirilloid NetworkManager[920]: <info>  [1600708334.8965] manager: NetworkManager state is now CONNECTED_LOCAL
+Sep 21 20:12:14 kirilloid NetworkManager[920]: <info>  [1600708334.8971] manager: NetworkManager state is now DISCONNECTED
+Sep 21 20:17:48 kirilloid NetworkManager[920]: <info>  [1600708668.3470] agent-manager: agent[ee8462107d3f99ba,:1.84/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 21 20:18:30 kirilloid NetworkManager[920]: <info>  [1600708710.0791] manager: (eth0): new Ethernet device (/org/freedesktop/NetworkManager/Devices/6)
+Sep 21 20:18:30 kirilloid NetworkManager[920]: <info>  [1600708710.1227] device (eth0): interface index 5 renamed iface from 'eth0' to 'enx429c28d09ff4'
+Sep 21 20:18:30 kirilloid NetworkManager[920]: <info>  [1600708710.1286] device (enx429c28d09ff4): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Sep 21 20:18:30 kirilloid NetworkManager[920]: <info>  [1600708710.1309] settings: (enx429c28d09ff4): created default wired connection 'Проводное соединение 2'
+Sep 21 20:18:31 kirilloid NetworkManager[920]: <info>  [1600708711.5000] device (enx429c28d09ff4): carrier: link connected
+Sep 21 20:18:31 kirilloid NetworkManager[920]: <info>  [1600708711.5009] device (enx429c28d09ff4): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Sep 21 20:18:31 kirilloid NetworkManager[920]: <info>  [1600708711.5026] policy: auto-activating connection 'Проводное соединение 2' (4565acb5-82e2-3faa-b088-94c0bba8cc5a)
+Sep 21 20:18:31 kirilloid NetworkManager[920]: <info>  [1600708711.5037] device (enx429c28d09ff4): Activation: starting connection 'Проводное соединение 2' (4565acb5-82e2-3faa-b088-94c0bba8cc5a)
+Sep 21 20:18:31 kirilloid NetworkManager[920]: <info>  [1600708711.5038] device (enx429c28d09ff4): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Sep 21 20:18:31 kirilloid NetworkManager[920]: <info>  [1600708711.5041] manager: NetworkManager state is now CONNECTING
+Sep 21 20:18:31 kirilloid NetworkManager[920]: <info>  [1600708711.5043] device (enx429c28d09ff4): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Sep 21 20:18:31 kirilloid NetworkManager[920]: <info>  [1600708711.5046] device (enx429c28d09ff4): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Sep 21 20:18:31 kirilloid NetworkManager[920]: <info>  [1600708711.5048] dhcp4 (enx429c28d09ff4): activation: beginning transaction (timeout in 45 seconds)
+Sep 21 20:18:31 kirilloid NetworkManager[920]: <info>  [1600708711.6101] dhcp4 (enx429c28d09ff4): option dhcp_lease_time      => '85536'
+Sep 21 20:18:31 kirilloid NetworkManager[920]: <info>  [1600708711.6101] dhcp4 (enx429c28d09ff4): option domain_name_servers  => '172.20.10.1'
+Sep 21 20:18:31 kirilloid NetworkManager[920]: <info>  [1600708711.6101] dhcp4 (enx429c28d09ff4): option expiry               => '1600794247'
+Sep 21 20:18:31 kirilloid NetworkManager[920]: <info>  [1600708711.6102] dhcp4 (enx429c28d09ff4): option ip_address           => '172.20.10.11'
+Sep 21 20:18:31 kirilloid NetworkManager[920]: <info>  [1600708711.6102] dhcp4 (enx429c28d09ff4): option next_server          => '172.20.10.1'
+Sep 21 20:18:31 kirilloid NetworkManager[920]: <info>  [1600708711.6102] dhcp4 (enx429c28d09ff4): option requested_broadcast_address => '1'
+Sep 21 20:18:31 kirilloid NetworkManager[920]: <info>  [1600708711.6102] dhcp4 (enx429c28d09ff4): option requested_domain_name => '1'
+Sep 21 20:18:31 kirilloid NetworkManager[920]: <info>  [1600708711.6102] dhcp4 (enx429c28d09ff4): option requested_domain_name_servers => '1'
+Sep 21 20:18:31 kirilloid NetworkManager[920]: <info>  [1600708711.6103] dhcp4 (enx429c28d09ff4): option requested_domain_search => '1'
+Sep 21 20:18:31 kirilloid NetworkManager[920]: <info>  [1600708711.6103] dhcp4 (enx429c28d09ff4): option requested_host_name  => '1'
+Sep 21 20:18:31 kirilloid NetworkManager[920]: <info>  [1600708711.6103] dhcp4 (enx429c28d09ff4): option requested_interface_mtu => '1'
+Sep 21 20:18:31 kirilloid NetworkManager[920]: <info>  [1600708711.6103] dhcp4 (enx429c28d09ff4): option requested_ms_classless_static_routes => '1'
+Sep 21 20:18:31 kirilloid NetworkManager[920]: <info>  [1600708711.6103] dhcp4 (enx429c28d09ff4): option requested_nis_domain => '1'
+Sep 21 20:18:31 kirilloid NetworkManager[920]: <info>  [1600708711.6103] dhcp4 (enx429c28d09ff4): option requested_nis_servers => '1'
+Sep 21 20:18:31 kirilloid NetworkManager[920]: <info>  [1600708711.6104] dhcp4 (enx429c28d09ff4): option requested_ntp_servers => '1'
+Sep 21 20:18:31 kirilloid NetworkManager[920]: <info>  [1600708711.6104] dhcp4 (enx429c28d09ff4): option requested_rfc3442_classless_static_routes => '1'
+Sep 21 20:18:31 kirilloid NetworkManager[920]: <info>  [1600708711.6104] dhcp4 (enx429c28d09ff4): option requested_root_path  => '1'
+Sep 21 20:18:31 kirilloid NetworkManager[920]: <info>  [1600708711.6104] dhcp4 (enx429c28d09ff4): option requested_routers    => '1'
+Sep 21 20:18:31 kirilloid NetworkManager[920]: <info>  [1600708711.6104] dhcp4 (enx429c28d09ff4): option requested_static_routes => '1'
+Sep 21 20:18:31 kirilloid NetworkManager[920]: <info>  [1600708711.6104] dhcp4 (enx429c28d09ff4): option requested_subnet_mask => '1'
+Sep 21 20:18:31 kirilloid NetworkManager[920]: <info>  [1600708711.6105] dhcp4 (enx429c28d09ff4): option requested_time_offset => '1'
+Sep 21 20:18:31 kirilloid NetworkManager[920]: <info>  [1600708711.6105] dhcp4 (enx429c28d09ff4): option requested_wpad       => '1'
+Sep 21 20:18:31 kirilloid NetworkManager[920]: <info>  [1600708711.6105] dhcp4 (enx429c28d09ff4): option routers              => '172.20.10.1'
+Sep 21 20:18:31 kirilloid NetworkManager[920]: <info>  [1600708711.6105] dhcp4 (enx429c28d09ff4): option subnet_mask          => '255.255.255.240'
+Sep 21 20:18:31 kirilloid NetworkManager[920]: <info>  [1600708711.6105] dhcp4 (enx429c28d09ff4): state changed unknown -> bound
+Sep 21 20:18:31 kirilloid NetworkManager[920]: <info>  [1600708711.6170] device (enx429c28d09ff4): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Sep 21 20:18:31 kirilloid NetworkManager[920]: <info>  [1600708711.6436] device (enx429c28d09ff4): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Sep 21 20:18:31 kirilloid NetworkManager[920]: <info>  [1600708711.6442] device (enx429c28d09ff4): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Sep 21 20:18:31 kirilloid NetworkManager[920]: <info>  [1600708711.6453] manager: NetworkManager state is now CONNECTED_LOCAL
+Sep 21 20:18:31 kirilloid NetworkManager[920]: <info>  [1600708711.6476] manager: NetworkManager state is now CONNECTED_SITE
+Sep 21 20:18:31 kirilloid NetworkManager[920]: <info>  [1600708711.6478] policy: set 'Проводное соединение 2' (enx429c28d09ff4) as default for IPv4 routing and DNS
+Sep 21 20:18:31 kirilloid NetworkManager[920]: <info>  [1600708711.6490] device (enx429c28d09ff4): Activation: successful, device activated.
+Sep 21 20:18:32 kirilloid ModemManager[1054]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:14.0/usb1/1-3': not supported by any plugin
+Sep 21 20:19:19 kirilloid NetworkManager[920]: <info>  [1600708759.4992] device (enx429c28d09ff4): carrier: link connected
+Sep 21 20:19:19 kirilloid NetworkManager[920]: <info>  [1600708759.4993] device (enx429c28d09ff4): DHCPv4 lease renewal requested
+Sep 21 20:19:19 kirilloid NetworkManager[920]: <info>  [1600708759.5183] dhcp4 (enx429c28d09ff4): canceled DHCP transaction
+Sep 21 20:19:19 kirilloid NetworkManager[920]: <info>  [1600708759.5184] dhcp4 (enx429c28d09ff4): state changed bound -> done
+Sep 21 20:19:19 kirilloid NetworkManager[920]: <info>  [1600708759.5196] dhcp4 (enx429c28d09ff4): activation: beginning transaction (timeout in 45 seconds)
+Sep 21 20:19:19 kirilloid NetworkManager[920]: <info>  [1600708759.5744] dhcp4 (enx429c28d09ff4): option dhcp_lease_time      => '85536'
+Sep 21 20:19:19 kirilloid NetworkManager[920]: <info>  [1600708759.5744] dhcp4 (enx429c28d09ff4): option domain_name_servers  => '172.20.10.1'
+Sep 21 20:19:19 kirilloid NetworkManager[920]: <info>  [1600708759.5744] dhcp4 (enx429c28d09ff4): option expiry               => '1600794295'
+Sep 21 20:19:19 kirilloid NetworkManager[920]: <info>  [1600708759.5744] dhcp4 (enx429c28d09ff4): option ip_address           => '172.20.10.11'
+Sep 21 20:19:19 kirilloid NetworkManager[920]: <info>  [1600708759.5745] dhcp4 (enx429c28d09ff4): option next_server          => '172.20.10.1'
+Sep 21 20:19:19 kirilloid NetworkManager[920]: <info>  [1600708759.5745] dhcp4 (enx429c28d09ff4): option requested_broadcast_address => '1'
+Sep 21 20:19:19 kirilloid NetworkManager[920]: <info>  [1600708759.5745] dhcp4 (enx429c28d09ff4): option requested_domain_name => '1'
+Sep 21 20:19:19 kirilloid NetworkManager[920]: <info>  [1600708759.5745] dhcp4 (enx429c28d09ff4): option requested_domain_name_servers => '1'
+Sep 21 20:19:19 kirilloid NetworkManager[920]: <info>  [1600708759.5745] dhcp4 (enx429c28d09ff4): option requested_domain_search => '1'
+Sep 21 20:19:19 kirilloid NetworkManager[920]: <info>  [1600708759.5745] dhcp4 (enx429c28d09ff4): option requested_host_name  => '1'
+Sep 21 20:19:19 kirilloid NetworkManager[920]: <info>  [1600708759.5745] dhcp4 (enx429c28d09ff4): option requested_interface_mtu => '1'
+Sep 21 20:19:19 kirilloid NetworkManager[920]: <info>  [1600708759.5745] dhcp4 (enx429c28d09ff4): option requested_ms_classless_static_routes => '1'
+Sep 21 20:19:19 kirilloid NetworkManager[920]: <info>  [1600708759.5746] dhcp4 (enx429c28d09ff4): option requested_nis_domain => '1'
+Sep 21 20:19:19 kirilloid NetworkManager[920]: <info>  [1600708759.5746] dhcp4 (enx429c28d09ff4): option requested_nis_servers => '1'
+Sep 21 20:19:19 kirilloid NetworkManager[920]: <info>  [1600708759.5746] dhcp4 (enx429c28d09ff4): option requested_ntp_servers => '1'
+Sep 21 20:19:19 kirilloid NetworkManager[920]: <info>  [1600708759.5746] dhcp4 (enx429c28d09ff4): option requested_rfc3442_classless_static_routes => '1'
+Sep 21 20:19:19 kirilloid NetworkManager[920]: <info>  [1600708759.5746] dhcp4 (enx429c28d09ff4): option requested_root_path  => '1'
+Sep 21 20:19:19 kirilloid NetworkManager[920]: <info>  [1600708759.5746] dhcp4 (enx429c28d09ff4): option requested_routers    => '1'
+Sep 21 20:19:19 kirilloid NetworkManager[920]: <info>  [1600708759.5746] dhcp4 (enx429c28d09ff4): option requested_static_routes => '1'
+Sep 21 20:19:19 kirilloid NetworkManager[920]: <info>  [1600708759.5746] dhcp4 (enx429c28d09ff4): option requested_subnet_mask => '1'
+Sep 21 20:19:19 kirilloid NetworkManager[920]: <info>  [1600708759.5747] dhcp4 (enx429c28d09ff4): option requested_time_offset => '1'
+Sep 21 20:19:19 kirilloid NetworkManager[920]: <info>  [1600708759.5747] dhcp4 (enx429c28d09ff4): option requested_wpad       => '1'
+Sep 21 20:19:19 kirilloid NetworkManager[920]: <info>  [1600708759.5747] dhcp4 (enx429c28d09ff4): option routers              => '172.20.10.1'
+Sep 21 20:19:19 kirilloid NetworkManager[920]: <info>  [1600708759.5747] dhcp4 (enx429c28d09ff4): option subnet_mask          => '255.255.255.240'
+Sep 21 20:19:19 kirilloid NetworkManager[920]: <info>  [1600708759.5747] dhcp4 (enx429c28d09ff4): state changed unknown -> bound
+Sep 21 20:20:26 kirilloid NetworkManager[920]: <info>  [1600708826.1348] device (enx429c28d09ff4): state change: activated -> unmanaged (reason 'removed', sys-iface-state: 'removed')
+Sep 21 20:20:26 kirilloid NetworkManager[920]: <info>  [1600708826.1703] dhcp4 (enx429c28d09ff4): canceled DHCP transaction
+Sep 21 20:20:26 kirilloid NetworkManager[920]: <info>  [1600708826.1703] dhcp4 (enx429c28d09ff4): state changed bound -> done
+Sep 21 20:20:26 kirilloid NetworkManager[920]: <info>  [1600708826.1716] manager: NetworkManager state is now CONNECTED_LOCAL
+Sep 21 20:20:26 kirilloid NetworkManager[920]: <info>  [1600708826.1723] manager: NetworkManager state is now DISCONNECTED
+Sep 21 20:20:29 kirilloid NetworkManager[920]: <info>  [1600708829.0541] manager: (eth0): new Ethernet device (/org/freedesktop/NetworkManager/Devices/7)
+Sep 21 20:20:29 kirilloid NetworkManager[920]: <info>  [1600708829.0908] device (eth0): interface index 6 renamed iface from 'eth0' to 'enx429c28d09ff4'
+Sep 21 20:20:29 kirilloid NetworkManager[920]: <info>  [1600708829.0972] device (enx429c28d09ff4): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Sep 21 20:20:29 kirilloid NetworkManager[920]: <info>  [1600708829.0996] settings: (enx429c28d09ff4): created default wired connection 'Проводное соединение 2'
+Sep 21 20:20:30 kirilloid NetworkManager[920]: <info>  [1600708830.4760] device (enx429c28d09ff4): carrier: link connected
+Sep 21 20:20:30 kirilloid NetworkManager[920]: <info>  [1600708830.4768] device (enx429c28d09ff4): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Sep 21 20:20:30 kirilloid NetworkManager[920]: <info>  [1600708830.4785] policy: auto-activating connection 'Проводное соединение 2' (4565acb5-82e2-3faa-b088-94c0bba8cc5a)
+Sep 21 20:20:30 kirilloid NetworkManager[920]: <info>  [1600708830.4798] device (enx429c28d09ff4): Activation: starting connection 'Проводное соединение 2' (4565acb5-82e2-3faa-b088-94c0bba8cc5a)
+Sep 21 20:20:30 kirilloid NetworkManager[920]: <info>  [1600708830.4801] device (enx429c28d09ff4): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Sep 21 20:20:30 kirilloid NetworkManager[920]: <info>  [1600708830.4810] manager: NetworkManager state is now CONNECTING
+Sep 21 20:20:30 kirilloid NetworkManager[920]: <info>  [1600708830.4816] device (enx429c28d09ff4): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Sep 21 20:20:30 kirilloid NetworkManager[920]: <info>  [1600708830.4828] device (enx429c28d09ff4): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Sep 21 20:20:30 kirilloid NetworkManager[920]: <info>  [1600708830.4836] dhcp4 (enx429c28d09ff4): activation: beginning transaction (timeout in 45 seconds)
+Sep 21 20:20:30 kirilloid NetworkManager[920]: <info>  [1600708830.5504] dhcp4 (enx429c28d09ff4): option dhcp_lease_time      => '85536'
+Sep 21 20:20:30 kirilloid NetworkManager[920]: <info>  [1600708830.5504] dhcp4 (enx429c28d09ff4): option domain_name_servers  => '172.20.10.1'
+Sep 21 20:20:30 kirilloid NetworkManager[920]: <info>  [1600708830.5504] dhcp4 (enx429c28d09ff4): option expiry               => '1600794366'
+Sep 21 20:20:30 kirilloid NetworkManager[920]: <info>  [1600708830.5505] dhcp4 (enx429c28d09ff4): option ip_address           => '172.20.10.11'
+Sep 21 20:20:30 kirilloid NetworkManager[920]: <info>  [1600708830.5505] dhcp4 (enx429c28d09ff4): option next_server          => '172.20.10.1'
+Sep 21 20:20:30 kirilloid NetworkManager[920]: <info>  [1600708830.5505] dhcp4 (enx429c28d09ff4): option requested_broadcast_address => '1'
+Sep 21 20:20:30 kirilloid NetworkManager[920]: <info>  [1600708830.5505] dhcp4 (enx429c28d09ff4): option requested_domain_name => '1'
+Sep 21 20:20:30 kirilloid NetworkManager[920]: <info>  [1600708830.5505] dhcp4 (enx429c28d09ff4): option requested_domain_name_servers => '1'
+Sep 21 20:20:30 kirilloid NetworkManager[920]: <info>  [1600708830.5505] dhcp4 (enx429c28d09ff4): option requested_domain_search => '1'
+Sep 21 20:20:30 kirilloid NetworkManager[920]: <info>  [1600708830.5506] dhcp4 (enx429c28d09ff4): option requested_host_name  => '1'
+Sep 21 20:20:30 kirilloid NetworkManager[920]: <info>  [1600708830.5506] dhcp4 (enx429c28d09ff4): option requested_interface_mtu => '1'
+Sep 21 20:20:30 kirilloid NetworkManager[920]: <info>  [1600708830.5506] dhcp4 (enx429c28d09ff4): option requested_ms_classless_static_routes => '1'
+Sep 21 20:20:30 kirilloid NetworkManager[920]: <info>  [1600708830.5506] dhcp4 (enx429c28d09ff4): option requested_nis_domain => '1'
+Sep 21 20:20:30 kirilloid NetworkManager[920]: <info>  [1600708830.5506] dhcp4 (enx429c28d09ff4): option requested_nis_servers => '1'
+Sep 21 20:20:30 kirilloid NetworkManager[920]: <info>  [1600708830.5506] dhcp4 (enx429c28d09ff4): option requested_ntp_servers => '1'
+Sep 21 20:20:30 kirilloid NetworkManager[920]: <info>  [1600708830.5506] dhcp4 (enx429c28d09ff4): option requested_rfc3442_classless_static_routes => '1'
+Sep 21 20:20:30 kirilloid NetworkManager[920]: <info>  [1600708830.5507] dhcp4 (enx429c28d09ff4): option requested_root_path  => '1'
+Sep 21 20:20:30 kirilloid NetworkManager[920]: <info>  [1600708830.5507] dhcp4 (enx429c28d09ff4): option requested_routers    => '1'
+Sep 21 20:20:30 kirilloid NetworkManager[920]: <info>  [1600708830.5507] dhcp4 (enx429c28d09ff4): option requested_static_routes => '1'
+Sep 21 20:20:30 kirilloid NetworkManager[920]: <info>  [1600708830.5507] dhcp4 (enx429c28d09ff4): option requested_subnet_mask => '1'
+Sep 21 20:20:30 kirilloid NetworkManager[920]: <info>  [1600708830.5507] dhcp4 (enx429c28d09ff4): option requested_time_offset => '1'
+Sep 21 20:20:30 kirilloid NetworkManager[920]: <info>  [1600708830.5508] dhcp4 (enx429c28d09ff4): option requested_wpad       => '1'
+Sep 21 20:20:30 kirilloid NetworkManager[920]: <info>  [1600708830.5508] dhcp4 (enx429c28d09ff4): option routers              => '172.20.10.1'
+Sep 21 20:20:30 kirilloid NetworkManager[920]: <info>  [1600708830.5508] dhcp4 (enx429c28d09ff4): option subnet_mask          => '255.255.255.240'
+Sep 21 20:20:30 kirilloid NetworkManager[920]: <info>  [1600708830.5508] dhcp4 (enx429c28d09ff4): state changed unknown -> bound
+Sep 21 20:20:30 kirilloid NetworkManager[920]: <info>  [1600708830.5530] device (enx429c28d09ff4): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Sep 21 20:20:30 kirilloid NetworkManager[920]: <info>  [1600708830.5602] device (enx429c28d09ff4): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Sep 21 20:20:30 kirilloid NetworkManager[920]: <info>  [1600708830.5609] device (enx429c28d09ff4): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Sep 21 20:20:30 kirilloid NetworkManager[920]: <info>  [1600708830.5620] manager: NetworkManager state is now CONNECTED_LOCAL
+Sep 21 20:20:30 kirilloid NetworkManager[920]: <info>  [1600708830.5649] manager: NetworkManager state is now CONNECTED_SITE
+Sep 21 20:20:30 kirilloid NetworkManager[920]: <info>  [1600708830.5653] policy: set 'Проводное соединение 2' (enx429c28d09ff4) as default for IPv4 routing and DNS
+Sep 21 20:20:30 kirilloid NetworkManager[920]: <info>  [1600708830.5665] device (enx429c28d09ff4): Activation: successful, device activated.
+Sep 21 20:20:31 kirilloid ModemManager[1054]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:14.0/usb1/1-3': not supported by any plugin
+Sep 21 20:20:46 kirilloid NetworkManager[920]: <info>  [1600708846.4753] device (enx429c28d09ff4): carrier: link connected
+Sep 21 20:20:46 kirilloid NetworkManager[920]: <info>  [1600708846.4754] device (enx429c28d09ff4): DHCPv4 lease renewal requested
+Sep 21 20:20:46 kirilloid NetworkManager[920]: <info>  [1600708846.4984] dhcp4 (enx429c28d09ff4): canceled DHCP transaction
+Sep 21 20:20:46 kirilloid NetworkManager[920]: <info>  [1600708846.4984] dhcp4 (enx429c28d09ff4): state changed bound -> done
+Sep 21 20:20:46 kirilloid NetworkManager[920]: <info>  [1600708846.4990] dhcp4 (enx429c28d09ff4): activation: beginning transaction (timeout in 45 seconds)
+Sep 21 20:20:46 kirilloid NetworkManager[920]: <info>  [1600708846.5940] dhcp4 (enx429c28d09ff4): option dhcp_lease_time      => '85536'
+Sep 21 20:20:46 kirilloid NetworkManager[920]: <info>  [1600708846.5941] dhcp4 (enx429c28d09ff4): option domain_name_servers  => '172.20.10.1'
+Sep 21 20:20:46 kirilloid NetworkManager[920]: <info>  [1600708846.5941] dhcp4 (enx429c28d09ff4): option expiry               => '1600794382'
+Sep 21 20:20:46 kirilloid NetworkManager[920]: <info>  [1600708846.5941] dhcp4 (enx429c28d09ff4): option ip_address           => '172.20.10.11'
+Sep 21 20:20:46 kirilloid NetworkManager[920]: <info>  [1600708846.5941] dhcp4 (enx429c28d09ff4): option next_server          => '172.20.10.1'
+Sep 21 20:20:46 kirilloid NetworkManager[920]: <info>  [1600708846.5942] dhcp4 (enx429c28d09ff4): option requested_broadcast_address => '1'
+Sep 21 20:20:46 kirilloid NetworkManager[920]: <info>  [1600708846.5942] dhcp4 (enx429c28d09ff4): option requested_domain_name => '1'
+Sep 21 20:20:46 kirilloid NetworkManager[920]: <info>  [1600708846.5942] dhcp4 (enx429c28d09ff4): option requested_domain_name_servers => '1'
+Sep 21 20:20:46 kirilloid NetworkManager[920]: <info>  [1600708846.5942] dhcp4 (enx429c28d09ff4): option requested_domain_search => '1'
+Sep 21 20:20:46 kirilloid NetworkManager[920]: <info>  [1600708846.5943] dhcp4 (enx429c28d09ff4): option requested_host_name  => '1'
+Sep 21 20:20:46 kirilloid NetworkManager[920]: <info>  [1600708846.5943] dhcp4 (enx429c28d09ff4): option requested_interface_mtu => '1'
+Sep 21 20:20:46 kirilloid NetworkManager[920]: <info>  [1600708846.5943] dhcp4 (enx429c28d09ff4): option requested_ms_classless_static_routes => '1'
+Sep 21 20:20:46 kirilloid NetworkManager[920]: <info>  [1600708846.5943] dhcp4 (enx429c28d09ff4): option requested_nis_domain => '1'
+Sep 21 20:20:46 kirilloid NetworkManager[920]: <info>  [1600708846.5944] dhcp4 (enx429c28d09ff4): option requested_nis_servers => '1'
+Sep 21 20:20:46 kirilloid NetworkManager[920]: <info>  [1600708846.5944] dhcp4 (enx429c28d09ff4): option requested_ntp_servers => '1'
+Sep 21 20:20:46 kirilloid NetworkManager[920]: <info>  [1600708846.5944] dhcp4 (enx429c28d09ff4): option requested_rfc3442_classless_static_routes => '1'
+Sep 21 20:20:46 kirilloid NetworkManager[920]: <info>  [1600708846.5944] dhcp4 (enx429c28d09ff4): option requested_root_path  => '1'
+Sep 21 20:20:46 kirilloid NetworkManager[920]: <info>  [1600708846.5945] dhcp4 (enx429c28d09ff4): option requested_routers    => '1'
+Sep 21 20:20:46 kirilloid NetworkManager[920]: <info>  [1600708846.5945] dhcp4 (enx429c28d09ff4): option requested_static_routes => '1'
+Sep 21 20:20:46 kirilloid NetworkManager[920]: <info>  [1600708846.5945] dhcp4 (enx429c28d09ff4): option requested_subnet_mask => '1'
+Sep 21 20:20:46 kirilloid NetworkManager[920]: <info>  [1600708846.5945] dhcp4 (enx429c28d09ff4): option requested_time_offset => '1'
+Sep 21 20:20:46 kirilloid NetworkManager[920]: <info>  [1600708846.5946] dhcp4 (enx429c28d09ff4): option requested_wpad       => '1'
+Sep 21 20:20:46 kirilloid NetworkManager[920]: <info>  [1600708846.5946] dhcp4 (enx429c28d09ff4): option routers              => '172.20.10.1'
+Sep 21 20:20:46 kirilloid NetworkManager[920]: <info>  [1600708846.5946] dhcp4 (enx429c28d09ff4): option subnet_mask          => '255.255.255.240'
+Sep 21 20:20:46 kirilloid NetworkManager[920]: <info>  [1600708846.5946] dhcp4 (enx429c28d09ff4): state changed unknown -> bound
+Sep 21 20:21:15 kirilloid NetworkManager[920]: <info>  [1600708875.4995] device (enx429c28d09ff4): carrier: link connected
+Sep 21 20:21:15 kirilloid NetworkManager[920]: <info>  [1600708875.4997] device (enx429c28d09ff4): DHCPv4 lease renewal requested
+Sep 21 20:21:15 kirilloid NetworkManager[920]: <info>  [1600708875.5263] dhcp4 (enx429c28d09ff4): canceled DHCP transaction
+Sep 21 20:21:15 kirilloid NetworkManager[920]: <info>  [1600708875.5264] dhcp4 (enx429c28d09ff4): state changed bound -> done
+Sep 21 20:21:15 kirilloid NetworkManager[920]: <info>  [1600708875.5271] dhcp4 (enx429c28d09ff4): activation: beginning transaction (timeout in 45 seconds)
+Sep 21 20:21:15 kirilloid NetworkManager[920]: <info>  [1600708875.6242] dhcp4 (enx429c28d09ff4): option dhcp_lease_time      => '85536'
+Sep 21 20:21:15 kirilloid NetworkManager[920]: <info>  [1600708875.6242] dhcp4 (enx429c28d09ff4): option domain_name_servers  => '172.20.10.1'
+Sep 21 20:21:15 kirilloid NetworkManager[920]: <info>  [1600708875.6243] dhcp4 (enx429c28d09ff4): option expiry               => '1600794411'
+Sep 21 20:21:15 kirilloid NetworkManager[920]: <info>  [1600708875.6243] dhcp4 (enx429c28d09ff4): option ip_address           => '172.20.10.11'
+Sep 21 20:21:15 kirilloid NetworkManager[920]: <info>  [1600708875.6243] dhcp4 (enx429c28d09ff4): option next_server          => '172.20.10.1'
+Sep 21 20:21:15 kirilloid NetworkManager[920]: <info>  [1600708875.6243] dhcp4 (enx429c28d09ff4): option requested_broadcast_address => '1'
+Sep 21 20:21:15 kirilloid NetworkManager[920]: <info>  [1600708875.6243] dhcp4 (enx429c28d09ff4): option requested_domain_name => '1'
+Sep 21 20:21:15 kirilloid NetworkManager[920]: <info>  [1600708875.6243] dhcp4 (enx429c28d09ff4): option requested_domain_name_servers => '1'
+Sep 21 20:21:15 kirilloid NetworkManager[920]: <info>  [1600708875.6243] dhcp4 (enx429c28d09ff4): option requested_domain_search => '1'
+Sep 21 20:21:15 kirilloid NetworkManager[920]: <info>  [1600708875.6244] dhcp4 (enx429c28d09ff4): option requested_host_name  => '1'
+Sep 21 20:21:15 kirilloid NetworkManager[920]: <info>  [1600708875.6244] dhcp4 (enx429c28d09ff4): option requested_interface_mtu => '1'
+Sep 21 20:21:15 kirilloid NetworkManager[920]: <info>  [1600708875.6244] dhcp4 (enx429c28d09ff4): option requested_ms_classless_static_routes => '1'
+Sep 21 20:21:15 kirilloid NetworkManager[920]: <info>  [1600708875.6244] dhcp4 (enx429c28d09ff4): option requested_nis_domain => '1'
+Sep 21 20:21:15 kirilloid NetworkManager[920]: <info>  [1600708875.6244] dhcp4 (enx429c28d09ff4): option requested_nis_servers => '1'
+Sep 21 20:21:15 kirilloid NetworkManager[920]: <info>  [1600708875.6244] dhcp4 (enx429c28d09ff4): option requested_ntp_servers => '1'
+Sep 21 20:21:15 kirilloid NetworkManager[920]: <info>  [1600708875.6244] dhcp4 (enx429c28d09ff4): option requested_rfc3442_classless_static_routes => '1'
+Sep 21 20:21:15 kirilloid NetworkManager[920]: <info>  [1600708875.6244] dhcp4 (enx429c28d09ff4): option requested_root_path  => '1'
+Sep 21 20:21:15 kirilloid NetworkManager[920]: <info>  [1600708875.6245] dhcp4 (enx429c28d09ff4): option requested_routers    => '1'
+Sep 21 20:21:15 kirilloid NetworkManager[920]: <info>  [1600708875.6245] dhcp4 (enx429c28d09ff4): option requested_static_routes => '1'
+Sep 21 20:21:15 kirilloid NetworkManager[920]: <info>  [1600708875.6245] dhcp4 (enx429c28d09ff4): option requested_subnet_mask => '1'
+Sep 21 20:21:15 kirilloid NetworkManager[920]: <info>  [1600708875.6245] dhcp4 (enx429c28d09ff4): option requested_time_offset => '1'
+Sep 21 20:21:15 kirilloid NetworkManager[920]: <info>  [1600708875.6245] dhcp4 (enx429c28d09ff4): option requested_wpad       => '1'
+Sep 21 20:21:15 kirilloid NetworkManager[920]: <info>  [1600708875.6245] dhcp4 (enx429c28d09ff4): option routers              => '172.20.10.1'
+Sep 21 20:21:15 kirilloid NetworkManager[920]: <info>  [1600708875.6245] dhcp4 (enx429c28d09ff4): option subnet_mask          => '255.255.255.240'
+Sep 21 20:21:15 kirilloid NetworkManager[920]: <info>  [1600708875.6245] dhcp4 (enx429c28d09ff4): state changed unknown -> bound
+Sep 21 20:22:12 kirilloid NetworkManager[920]: <info>  [1600708932.5930] agent-manager: agent[233bb42f4dc06b0a,:1.206/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 21 20:24:23 kirilloid NetworkManager[920]: <info>  [1600709063.2499] device (enx429c28d09ff4): state change: activated -> unmanaged (reason 'removed', sys-iface-state: 'removed')
+Sep 21 20:24:23 kirilloid NetworkManager[920]: <info>  [1600709063.2745] dhcp4 (enx429c28d09ff4): canceled DHCP transaction
+Sep 21 20:24:23 kirilloid NetworkManager[920]: <info>  [1600709063.2746] dhcp4 (enx429c28d09ff4): state changed bound -> done
+Sep 21 20:24:23 kirilloid NetworkManager[920]: <info>  [1600709063.2761] manager: NetworkManager state is now CONNECTED_LOCAL
+Sep 21 20:24:23 kirilloid NetworkManager[920]: <info>  [1600709063.2766] manager: NetworkManager state is now DISCONNECTED
+Sep 21 20:24:39 kirilloid NetworkManager[920]: <info>  [1600709079.8515] manager: (eth0): new Ethernet device (/org/freedesktop/NetworkManager/Devices/8)
+Sep 21 20:24:39 kirilloid NetworkManager[920]: <info>  [1600709079.8907] device (eth0): interface index 7 renamed iface from 'eth0' to 'enx429c28d09ff4'
+Sep 21 20:24:39 kirilloid NetworkManager[920]: <info>  [1600709079.8967] device (enx429c28d09ff4): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Sep 21 20:24:39 kirilloid NetworkManager[920]: <info>  [1600709079.8994] settings: (enx429c28d09ff4): created default wired connection 'Проводное соединение 2'
+Sep 21 20:24:41 kirilloid NetworkManager[920]: <info>  [1600709081.5163] device (enx429c28d09ff4): carrier: link connected
+Sep 21 20:24:41 kirilloid NetworkManager[920]: <info>  [1600709081.5173] device (enx429c28d09ff4): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Sep 21 20:24:41 kirilloid NetworkManager[920]: <info>  [1600709081.5192] policy: auto-activating connection 'Проводное соединение 2' (4565acb5-82e2-3faa-b088-94c0bba8cc5a)
+Sep 21 20:24:41 kirilloid NetworkManager[920]: <info>  [1600709081.5202] device (enx429c28d09ff4): Activation: starting connection 'Проводное соединение 2' (4565acb5-82e2-3faa-b088-94c0bba8cc5a)
+Sep 21 20:24:41 kirilloid NetworkManager[920]: <info>  [1600709081.5203] device (enx429c28d09ff4): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Sep 21 20:24:41 kirilloid NetworkManager[920]: <info>  [1600709081.5206] manager: NetworkManager state is now CONNECTING
+Sep 21 20:24:41 kirilloid NetworkManager[920]: <info>  [1600709081.5207] device (enx429c28d09ff4): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Sep 21 20:24:41 kirilloid NetworkManager[920]: <info>  [1600709081.5211] device (enx429c28d09ff4): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Sep 21 20:24:41 kirilloid NetworkManager[920]: <info>  [1600709081.5212] dhcp4 (enx429c28d09ff4): activation: beginning transaction (timeout in 45 seconds)
+Sep 21 20:24:41 kirilloid NetworkManager[920]: <info>  [1600709081.7785] dhcp4 (enx429c28d09ff4): option dhcp_lease_time      => '85536'
+Sep 21 20:24:41 kirilloid NetworkManager[920]: <info>  [1600709081.7785] dhcp4 (enx429c28d09ff4): option domain_name_servers  => '172.20.10.1'
+Sep 21 20:24:41 kirilloid NetworkManager[920]: <info>  [1600709081.7785] dhcp4 (enx429c28d09ff4): option expiry               => '1600794617'
+Sep 21 20:24:41 kirilloid NetworkManager[920]: <info>  [1600709081.7785] dhcp4 (enx429c28d09ff4): option ip_address           => '172.20.10.11'
+Sep 21 20:24:41 kirilloid NetworkManager[920]: <info>  [1600709081.7786] dhcp4 (enx429c28d09ff4): option next_server          => '172.20.10.1'
+Sep 21 20:24:41 kirilloid NetworkManager[920]: <info>  [1600709081.7786] dhcp4 (enx429c28d09ff4): option requested_broadcast_address => '1'
+Sep 21 20:24:41 kirilloid NetworkManager[920]: <info>  [1600709081.7786] dhcp4 (enx429c28d09ff4): option requested_domain_name => '1'
+Sep 21 20:24:41 kirilloid NetworkManager[920]: <info>  [1600709081.7786] dhcp4 (enx429c28d09ff4): option requested_domain_name_servers => '1'
+Sep 21 20:24:41 kirilloid NetworkManager[920]: <info>  [1600709081.7786] dhcp4 (enx429c28d09ff4): option requested_domain_search => '1'
+Sep 21 20:24:41 kirilloid NetworkManager[920]: <info>  [1600709081.7786] dhcp4 (enx429c28d09ff4): option requested_host_name  => '1'
+Sep 21 20:24:41 kirilloid NetworkManager[920]: <info>  [1600709081.7786] dhcp4 (enx429c28d09ff4): option requested_interface_mtu => '1'
+Sep 21 20:24:41 kirilloid NetworkManager[920]: <info>  [1600709081.7787] dhcp4 (enx429c28d09ff4): option requested_ms_classless_static_routes => '1'
+Sep 21 20:24:41 kirilloid NetworkManager[920]: <info>  [1600709081.7787] dhcp4 (enx429c28d09ff4): option requested_nis_domain => '1'
+Sep 21 20:24:41 kirilloid NetworkManager[920]: <info>  [1600709081.7787] dhcp4 (enx429c28d09ff4): option requested_nis_servers => '1'
+Sep 21 20:24:41 kirilloid NetworkManager[920]: <info>  [1600709081.7787] dhcp4 (enx429c28d09ff4): option requested_ntp_servers => '1'
+Sep 21 20:24:41 kirilloid NetworkManager[920]: <info>  [1600709081.7787] dhcp4 (enx429c28d09ff4): option requested_rfc3442_classless_static_routes => '1'
+Sep 21 20:24:41 kirilloid NetworkManager[920]: <info>  [1600709081.7787] dhcp4 (enx429c28d09ff4): option requested_root_path  => '1'
+Sep 21 20:24:41 kirilloid NetworkManager[920]: <info>  [1600709081.7787] dhcp4 (enx429c28d09ff4): option requested_routers    => '1'
+Sep 21 20:24:41 kirilloid NetworkManager[920]: <info>  [1600709081.7787] dhcp4 (enx429c28d09ff4): option requested_static_routes => '1'
+Sep 21 20:24:41 kirilloid NetworkManager[920]: <info>  [1600709081.7788] dhcp4 (enx429c28d09ff4): option requested_subnet_mask => '1'
+Sep 21 20:24:41 kirilloid NetworkManager[920]: <info>  [1600709081.7788] dhcp4 (enx429c28d09ff4): option requested_time_offset => '1'
+Sep 21 20:24:41 kirilloid NetworkManager[920]: <info>  [1600709081.7788] dhcp4 (enx429c28d09ff4): option requested_wpad       => '1'
+Sep 21 20:24:41 kirilloid NetworkManager[920]: <info>  [1600709081.7788] dhcp4 (enx429c28d09ff4): option routers              => '172.20.10.1'
+Sep 21 20:24:41 kirilloid NetworkManager[920]: <info>  [1600709081.7788] dhcp4 (enx429c28d09ff4): option subnet_mask          => '255.255.255.240'
+Sep 21 20:24:41 kirilloid NetworkManager[920]: <info>  [1600709081.7788] dhcp4 (enx429c28d09ff4): state changed unknown -> bound
+Sep 21 20:24:41 kirilloid NetworkManager[920]: <info>  [1600709081.7853] device (enx429c28d09ff4): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Sep 21 20:24:41 kirilloid NetworkManager[920]: <info>  [1600709081.7988] device (enx429c28d09ff4): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Sep 21 20:24:41 kirilloid NetworkManager[920]: <info>  [1600709081.7991] device (enx429c28d09ff4): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Sep 21 20:24:41 kirilloid NetworkManager[920]: <info>  [1600709081.7996] manager: NetworkManager state is now CONNECTED_LOCAL
+Sep 21 20:24:41 kirilloid NetworkManager[920]: <info>  [1600709081.8005] manager: NetworkManager state is now CONNECTED_SITE
+Sep 21 20:24:41 kirilloid NetworkManager[920]: <info>  [1600709081.8006] policy: set 'Проводное соединение 2' (enx429c28d09ff4) as default for IPv4 routing and DNS
+Sep 21 20:24:41 kirilloid NetworkManager[920]: <info>  [1600709081.8012] device (enx429c28d09ff4): Activation: successful, device activated.
+Sep 21 20:24:42 kirilloid ModemManager[1054]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:14.0/usb1/1-3': not supported by any plugin
+Sep 21 20:27:36 kirilloid ModemManager[1054]: <info>  Caught signal, shutting down...
+Sep 21 20:27:36 kirilloid ModemManager[1054]: <info>  ModemManager is shut down
+Sep 22 18:07:20 kirilloid NetworkManager[910]: <info>  [1600787240.6944] NetworkManager (version 1.22.10) is starting... (for the first time)
+Sep 22 18:07:20 kirilloid NetworkManager[910]: <info>  [1600787240.6946] Read config: /etc/NetworkManager/NetworkManager.conf (lib: 10-dns-resolved.conf, 20-connectivity-ubuntu.conf, no-mac-addr-change.conf) (run: 10-globally-managed-devices.conf) (etc: default-wifi-powersave-on.conf)
+Sep 22 18:07:20 kirilloid NetworkManager[910]: <info>  [1600787240.7438] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+Sep 22 18:07:21 kirilloid ModemManager[1047]: <info>  ModemManager (version 1.12.8) starting in system bus...
+Sep 22 18:07:21 kirilloid NetworkManager[910]: <info>  [1600787240.8959] manager[0x55e7b6971020]: monitoring kernel firmware directory '/lib/firmware'.
+Sep 22 18:07:21 kirilloid NetworkManager[910]: <info>  [1600787240.8959] monitoring ifupdown state file '/run/network/ifstate'.
+Sep 22 18:07:21 kirilloid NetworkManager[910]: <info>  [1600787240.9505] hostname: hostname: using hostnamed
+Sep 22 18:07:21 kirilloid NetworkManager[910]: <info>  [1600787240.9505] hostname: hostname changed from (none) to "kirilloid"
+Sep 22 18:07:21 kirilloid NetworkManager[910]: <info>  [1600787240.9510] dns-mgr[0x55e7b6955290]: init: dns=systemd-resolved rc-manager=symlink, plugin=systemd-resolved
+Sep 22 18:07:21 kirilloid NetworkManager[910]: <info>  [1600787240.9527] rfkill0: found Wi-Fi radio killswitch (at /sys/devices/platform/acer-wmi/rfkill/rfkill0) (platform driver acer-wmi)
+Sep 22 18:07:21 kirilloid NetworkManager[910]: <info>  [1600787240.9755] manager[0x55e7b6971020]: rfkill: Wi-Fi hardware radio set enabled
+Sep 22 18:07:21 kirilloid NetworkManager[910]: <info>  [1600787240.9756] manager[0x55e7b6971020]: rfkill: WWAN hardware radio set enabled
+Sep 22 18:07:22 kirilloid NetworkManager[910]: <info>  [1600787242.7102] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-bluetooth.so)
+Sep 22 18:07:23 kirilloid NetworkManager[910]: <info>  [1600787243.0451] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-adsl.so)
+Sep 22 18:07:23 kirilloid NetworkManager[910]: <info>  [1600787243.2061] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wwan.so)
+Sep 22 18:07:23 kirilloid NetworkManager[910]: <info>  [1600787243.6815] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wifi.so)
+Sep 22 18:07:24 kirilloid NetworkManager[910]: <info>  [1600787243.8667] Loaded device plugin: NMTeamFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-team.so)
+Sep 22 18:07:24 kirilloid NetworkManager[910]: <info>  [1600787243.8672] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+Sep 22 18:07:24 kirilloid NetworkManager[910]: <info>  [1600787243.8674] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+Sep 22 18:07:24 kirilloid NetworkManager[910]: <info>  [1600787243.8675] manager: Networking is enabled by state file
+Sep 22 18:07:24 kirilloid NetworkManager[910]: <info>  [1600787243.8677] dhcp-init: Using DHCP client 'internal'
+Sep 22 18:07:24 kirilloid NetworkManager[910]: <info>  [1600787244.2316] settings: Loaded settings plugin: ifupdown ("/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-settings-plugin-ifupdown.so")
+Sep 22 18:07:24 kirilloid NetworkManager[910]: <info>  [1600787244.2316] settings: Loaded settings plugin: keyfile (internal)
+Sep 22 18:07:25 kirilloid NetworkManager[910]: <info>  [1600787244.2317] ifupdown: management mode: unmanaged
+Sep 22 18:07:25 kirilloid NetworkManager[910]: <info>  [1600787244.4010] device (lo): carrier: link connected
+Sep 22 18:07:25 kirilloid NetworkManager[910]: <info>  [1600787244.4014] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+Sep 22 18:07:25 kirilloid NetworkManager[910]: <info>  [1600787244.4036] manager: (enp6s0f1): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Sep 22 18:07:25 kirilloid NetworkManager[910]: <info>  [1600787244.4864] settings: (enp6s0f1): created default wired connection 'Проводное соединение 1'
+Sep 22 18:07:25 kirilloid NetworkManager[910]: <info>  [1600787244.4878] device (enp6s0f1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Sep 22 18:07:25 kirilloid NetworkManager[910]: <info>  [1600787244.6341] manager: (enx429c28d09ff4): new Ethernet device (/org/freedesktop/NetworkManager/Devices/3)
+Sep 22 18:07:25 kirilloid NetworkManager[910]: <info>  [1600787244.6364] settings: (enx429c28d09ff4): created default wired connection 'Проводное соединение 2'
+Sep 22 18:07:25 kirilloid NetworkManager[910]: <info>  [1600787244.6370] device (enx429c28d09ff4): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Sep 22 18:07:25 kirilloid NetworkManager[910]: <info>  [1600787244.6871] modem-manager: ModemManager available
+Sep 22 18:07:25 kirilloid NetworkManager[910]: <info>  [1600787245.5357] device (enx429c28d09ff4): carrier: link connected
+Sep 22 18:07:25 kirilloid NetworkManager[910]: <info>  [1600787245.5360] device (enx429c28d09ff4): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Sep 22 18:07:25 kirilloid NetworkManager[910]: <info>  [1600787245.5372] policy: auto-activating connection 'Проводное соединение 2' (4565acb5-82e2-3faa-b088-94c0bba8cc5a)
+Sep 22 18:07:25 kirilloid NetworkManager[910]: <info>  [1600787245.5384] device (enx429c28d09ff4): Activation: starting connection 'Проводное соединение 2' (4565acb5-82e2-3faa-b088-94c0bba8cc5a)
+Sep 22 18:07:25 kirilloid NetworkManager[910]: <info>  [1600787245.5386] device (enx429c28d09ff4): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Sep 22 18:07:25 kirilloid NetworkManager[910]: <info>  [1600787245.5394] manager: NetworkManager state is now CONNECTING
+Sep 22 18:07:25 kirilloid NetworkManager[910]: <info>  [1600787245.5397] device (enx429c28d09ff4): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Sep 22 18:07:25 kirilloid NetworkManager[910]: <info>  [1600787245.5404] device (enx429c28d09ff4): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Sep 22 18:07:25 kirilloid NetworkManager[910]: <info>  [1600787245.5409] dhcp4 (enx429c28d09ff4): activation: beginning transaction (timeout in 45 seconds)
+Sep 22 18:07:25 kirilloid NetworkManager[910]: <info>  [1600787245.9199] dhcp4 (enx429c28d09ff4): option dhcp_lease_time      => '85536'
+Sep 22 18:07:25 kirilloid NetworkManager[910]: <info>  [1600787245.9200] dhcp4 (enx429c28d09ff4): option domain_name_servers  => '172.20.10.1'
+Sep 22 18:07:25 kirilloid NetworkManager[910]: <info>  [1600787245.9200] dhcp4 (enx429c28d09ff4): option expiry               => '1600872781'
+Sep 22 18:07:25 kirilloid NetworkManager[910]: <info>  [1600787245.9200] dhcp4 (enx429c28d09ff4): option ip_address           => '172.20.10.11'
+Sep 22 18:07:25 kirilloid NetworkManager[910]: <info>  [1600787245.9200] dhcp4 (enx429c28d09ff4): option next_server          => '172.20.10.1'
+Sep 22 18:07:25 kirilloid NetworkManager[910]: <info>  [1600787245.9200] dhcp4 (enx429c28d09ff4): option requested_broadcast_address => '1'
+Sep 22 18:07:25 kirilloid NetworkManager[910]: <info>  [1600787245.9200] dhcp4 (enx429c28d09ff4): option requested_domain_name => '1'
+Sep 22 18:07:25 kirilloid NetworkManager[910]: <info>  [1600787245.9200] dhcp4 (enx429c28d09ff4): option requested_domain_name_servers => '1'
+Sep 22 18:07:25 kirilloid NetworkManager[910]: <info>  [1600787245.9201] dhcp4 (enx429c28d09ff4): option requested_domain_search => '1'
+Sep 22 18:07:25 kirilloid NetworkManager[910]: <info>  [1600787245.9201] dhcp4 (enx429c28d09ff4): option requested_host_name  => '1'
+Sep 22 18:07:25 kirilloid NetworkManager[910]: <info>  [1600787245.9201] dhcp4 (enx429c28d09ff4): option requested_interface_mtu => '1'
+Sep 22 18:07:25 kirilloid NetworkManager[910]: <info>  [1600787245.9201] dhcp4 (enx429c28d09ff4): option requested_ms_classless_static_routes => '1'
+Sep 22 18:07:25 kirilloid NetworkManager[910]: <info>  [1600787245.9201] dhcp4 (enx429c28d09ff4): option requested_nis_domain => '1'
+Sep 22 18:07:25 kirilloid NetworkManager[910]: <info>  [1600787245.9201] dhcp4 (enx429c28d09ff4): option requested_nis_servers => '1'
+Sep 22 18:07:25 kirilloid NetworkManager[910]: <info>  [1600787245.9201] dhcp4 (enx429c28d09ff4): option requested_ntp_servers => '1'
+Sep 22 18:07:25 kirilloid NetworkManager[910]: <info>  [1600787245.9202] dhcp4 (enx429c28d09ff4): option requested_rfc3442_classless_static_routes => '1'
+Sep 22 18:07:25 kirilloid NetworkManager[910]: <info>  [1600787245.9202] dhcp4 (enx429c28d09ff4): option requested_root_path  => '1'
+Sep 22 18:07:25 kirilloid NetworkManager[910]: <info>  [1600787245.9202] dhcp4 (enx429c28d09ff4): option requested_routers    => '1'
+Sep 22 18:07:25 kirilloid NetworkManager[910]: <info>  [1600787245.9202] dhcp4 (enx429c28d09ff4): option requested_static_routes => '1'
+Sep 22 18:07:25 kirilloid NetworkManager[910]: <info>  [1600787245.9203] dhcp4 (enx429c28d09ff4): option requested_subnet_mask => '1'
+Sep 22 18:07:25 kirilloid NetworkManager[910]: <info>  [1600787245.9203] dhcp4 (enx429c28d09ff4): option requested_time_offset => '1'
+Sep 22 18:07:25 kirilloid NetworkManager[910]: <info>  [1600787245.9203] dhcp4 (enx429c28d09ff4): option requested_wpad       => '1'
+Sep 22 18:07:25 kirilloid NetworkManager[910]: <info>  [1600787245.9203] dhcp4 (enx429c28d09ff4): option routers              => '172.20.10.1'
+Sep 22 18:07:25 kirilloid NetworkManager[910]: <info>  [1600787245.9203] dhcp4 (enx429c28d09ff4): option subnet_mask          => '255.255.255.240'
+Sep 22 18:07:25 kirilloid NetworkManager[910]: <info>  [1600787245.9203] dhcp4 (enx429c28d09ff4): state changed unknown -> bound
+Sep 22 18:07:25 kirilloid NetworkManager[910]: <info>  [1600787245.9228] device (enx429c28d09ff4): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Sep 22 18:07:26 kirilloid NetworkManager[910]: <info>  [1600787246.0528] device (enx429c28d09ff4): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Sep 22 18:07:26 kirilloid NetworkManager[910]: <info>  [1600787246.0533] device (enx429c28d09ff4): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Sep 22 18:07:26 kirilloid NetworkManager[910]: <info>  [1600787246.0542] manager: NetworkManager state is now CONNECTED_LOCAL
+Sep 22 18:07:26 kirilloid NetworkManager[910]: <info>  [1600787246.0560] manager: NetworkManager state is now CONNECTED_SITE
+Sep 22 18:07:26 kirilloid NetworkManager[910]: <info>  [1600787246.0563] policy: set 'Проводное соединение 2' (enx429c28d09ff4) as default for IPv4 routing and DNS
+Sep 22 18:07:26 kirilloid NetworkManager[910]: <info>  [1600787246.0575] device (enx429c28d09ff4): Activation: successful, device activated.
+Sep 22 18:07:26 kirilloid ModemManager[1047]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:14.0/usb1/1-3': not supported by any plugin
+Sep 22 18:07:26 kirilloid ModemManager[1047]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:1d.0/0000:06:00.1': not supported by any plugin
+Sep 22 18:07:28 kirilloid NetworkManager[910]: <info>  [1600787248.5540] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 22 18:07:30 kirilloid NetworkManager[910]: <info>  [1600787250.6326] manager: startup complete
+Sep 22 18:08:20 kirilloid NetworkManager[910]: <info>  [1600787299.2058] agent-manager: agent[5e7e253b9c748d08,:1.85/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 22 18:37:47 kirilloid NetworkManager[910]: <info>  [1600789067.2270] manager: NetworkManager state is now CONNECTED_SITE
+Sep 22 18:37:47 kirilloid NetworkManager[910]: <info>  [1600789067.6622] manager: NetworkManager state is now CONNECTED_GLOBAL

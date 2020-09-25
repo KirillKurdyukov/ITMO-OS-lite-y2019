@@ -1,0 +1,2 @@
+#!/bin/bash
+awk '{ if ( $6 == "<info>" ) print $0}' /var/log/syslog > info.log

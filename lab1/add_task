@@ -1,0 +1,5 @@
+#!/bin/bash
+read A
+grep -o "#\!/bin/bash" $A > output.txt 
+grep -E -o '^[^#]*' $A >> output.txt 
+

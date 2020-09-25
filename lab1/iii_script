@@ -1,0 +1,19 @@
+#!/bin/bash
+echo "1.Start nano"
+echo "2.Start vi"
+echo "3.Start links"
+echo "4.Exit menu"
+read Val
+case $Val in
+1	) 
+exec nano;;
+2	) 
+exec vi;;
+3	) 
+exec links;;
+4	) 
+echo "Goodbay";;
+*	)
+echo "Uncorrect input";;
+esac
+
