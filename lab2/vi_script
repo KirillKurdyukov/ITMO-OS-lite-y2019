@@ -1,0 +1,18 @@
+#!/bin/bash
+answer=""
+max=0
+for pid in $(ps -A -o pid --no-header) 
+do
+file=/proc/$pid/status
+if [[ -f $file ]] 
+then
+	current=$(grep -i VMSIZE $file | grep -E -o '[[:digit:]]+')
+	if [[ $current -gt $max ]] 
+	then 
+		max=$current
+		answer=$pid
+	fi
+fi
+done
+echo $answer $max	
+

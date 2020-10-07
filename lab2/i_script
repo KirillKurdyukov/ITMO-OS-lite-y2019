@@ -1,0 +1,4 @@
+#!/bin/bash
+ps -A -o user | grep -c kirilloid > answer1
+ps -A -o pid,cmd,user | grep kirilloid | awk '{ print($1, ":", $2) }' >> answer1
+

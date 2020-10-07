@@ -1,0 +1,30 @@
+#!/bin/bash
+for pid in $(ps -A -o pid --no-header) 
+do
+file=/proc/$pid/io
+if [[ -f $file ]]
+	then
+	read_bytes=$(grep read_bytes $file | grep -E -o '[[:digit:]]+')
+	echo $pid $read_bytes >> temp
+fi
+done
+sudo rm answer7
+cat temp
+echo "Sleeping for 60 seconds…"
+sleep 60
+echo "Completed"
+while read string 
+do 
+pid=$(echo $string | awk '{print $1}')
+old_read_bytes=$(echo $string | awk '{print $2}')
+file=/proc/$pid/io
+if [[ -f $file ]] 
+	then
+	new_read_bytes=$(grep read_bytes $file | grep -E -o '[[:digit:]]+')
+	echo $pid $(echo $new_read_bytes $old_read_bytes | awk '{print $1-$2}') >> kek
+fi
+done < temp
+sudo sort -n -k2 kek > answer7
+sudo rm temp
+sudo rm kek
+	
