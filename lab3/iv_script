@@ -1,0 +1,7 @@
+#!/bin/bash
+./pr1 &
+cpulimit --pid $(cat pid1.txt) --limit 10
+./pr2 &
+./pr3 &
+sleep 5
+kill $(cat pid3.txt)

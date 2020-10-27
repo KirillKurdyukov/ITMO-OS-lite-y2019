@@ -1,0 +1,13 @@
+#!/bin/bash
+
+x=0
+PID=$$
+echo $PID > pid1.txt
+
+while true
+
+do
+
+let x=$x+1
+
+done

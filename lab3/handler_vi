@@ -1,0 +1,33 @@
+#!/bin/bash
+echo $$ > .pid
+A=1
+oper="wait operation"
+usr1()
+{
+	oper="+"
+}
+usr2()
+{
+	oper="*"
+}
+trap 'usr1' USR1
+trap 'usr2' USR2
+while true
+do
+	case $oper in 
+	"+"	)
+	let A=$A+2
+	echo $A ;;
+	
+	"*"	)
+	let A=$A\*2
+	echo $A ;;
+	
+	"wait operation"	)
+	
+	echo "wait operation" ;;
+	
+	esac
+	
+	sleep 1
+done

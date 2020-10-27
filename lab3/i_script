@@ -1,0 +1,11 @@
+#!/bin/bash
+successfulBehavior="catalog test was created successfully"
+messagePingProblem="ping_fail"
+newDir=~/test
+report=~/report.txt
+rm -r ~/test
+host="www.net_nikogo.ru"
+testfile=$newDir"/"$(date +"%F_%R") 
+mkdir $newDir && { echo "$successfulBehavior"; echo "$successfulBehavior" > "$report"; touch $testfile; } 
+ping -c 1 www.net_nikogo.ru || echo $messagePingProblem >> $report
+

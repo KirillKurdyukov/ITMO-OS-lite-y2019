@@ -1,0 +1,5 @@
+#!/bin/bash
+sleep 120
+report=~/report.txt
+(tail -f $report) | ./i_script 
+
