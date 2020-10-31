@@ -10,11 +10,20 @@ usr2()
 {
 	oper="*"
 }
+usr3()
+{
+	oper="-"
+}
+usr4()
+{
+	A=$(cat number)
+}
 
 
 trap 'usr1' USR1
 trap 'usr2' USR2
-
+trap 'usr3' SIGABRT
+trap 'usr4' SIGALRM
 while true
 do
 	case $oper in 
@@ -24,6 +33,10 @@ do
 	
 	"*"	)
 	let A=$A\*2
+	echo $A ;;
+	
+	"-"	)
+	let A=$A-2
 	echo $A ;;
 	
 	"wait operation"	)

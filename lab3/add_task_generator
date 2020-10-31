@@ -12,5 +12,12 @@ while true; do
 	"*")
 		kill -USR2 $(cat .pid)
 		;;
-	esac	
+	"-")
+		kill -SIGABRT $(cat .pid)
+		;;					
+	esac
+	if [[ $LINE =~ $re ]] ; then
+		echo $LINE > number
+		kill -SIGALRM  $(cat .pid)
+	fi
 done
