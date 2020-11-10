@@ -1,0 +1,8 @@
+#!/bin/bash
+file=/etc/sysctl.d/99_default_ttl.conf
+echo net.ipv4.ip_default_ttl=64 > $file
+sleep 5
+sudo sysctl --system
+echo net.ipv4.ip_default_ttl=65 > $file
+sleep 5
+sudo sysctl --system

@@ -1,0 +1,27 @@
+#!/bin/bash
+
+if [[ $# -ne 1 ]] 
+then
+	exit 1
+fi 		
+
+nameCurrentFile=$1
+
+hiddenDirectoryHome=~/trash
+
+if ! [[ -d $hiddenDirectoryHome ]] 
+then
+	mkdir $hiddenDirectoryHome
+fi 
+
+currentLinkName=$(date +%T)
+
+echo $currentLinkName
+
+ln $nameCurrentFile "$hiddenDirectoryHome/$currentLinkName"
+
+rm $nameCurrentFile	
+
+currentDirectory=$(pwd) 
+
+echo "$currentDirectory/$nameCurrentFile=$currentLinkName" >> ~/trash.log

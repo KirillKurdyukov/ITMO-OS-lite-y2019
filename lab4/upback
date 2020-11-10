@@ -1,0 +1,19 @@
+#!/bin/bash
+
+cd ~
+
+if ! [[ -d restore ]]
+then 
+	mkdir restore
+fi
+
+cd ~/$(ls | grep '^Backup-' | sort -n | tail -1)
+
+for currentFile in $(ls)
+do 
+	if [[ $currentFile != '^[A-Za-z0-9]+-[0-9]+-[0-9]+-[0-9]+' ]]
+	then
+		cp -R $currentFile ~/restore
+	fi
+done		
+	
