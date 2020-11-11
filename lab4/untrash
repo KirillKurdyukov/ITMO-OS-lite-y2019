@@ -9,10 +9,13 @@ FileName=$1
 
 trashLog=~/trash.log
 
+trash=$(cat $trashLog)
+
 echo "" > $trashLog
 
-for string in $(cat $trashLog)
+for string in $trash
 do
+
 	if [[ $string =~ $FileName ]]
 	then 
 		echo "Do you want to restore the $string file?"

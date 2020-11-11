@@ -2,6 +2,7 @@
 
 if [[ $# -ne 1 ]] 
 then
+	echo "No correct"
 	exit 1
 fi 		
 
@@ -13,6 +14,12 @@ if ! [[ -d $hiddenDirectoryHome ]]
 then
 	mkdir $hiddenDirectoryHome
 fi 
+
+if ! [[ -f $1 ]] 
+then 
+	echo "Not file"
+	exit 1
+fi
 
 currentLinkName=$(date +%T)
 
