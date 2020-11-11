@@ -24,8 +24,8 @@ then
 	echo "Directory Backup-$dateNow was created."
 	echo "Files: $ArrayListFilesInSource" >> backup-report	
 else
-	ArrayListFilesInSource=$(ls)
 	cd ~/source 
+	ArrayListFilesInSource=$(ls)
 	cd ~
 	echo "Directory Backup-$datePrev was created."
 	echo "Files: $ArrayListFilesInSource" >> backup-report	
