@@ -11,11 +11,7 @@ dateNow=$(date +%Y-%m-%d)
 
 datePrev=$(ls | grep "^Backup-" | sort -n | tail -1 | cut -d "-" -f 2,3,4)
 
-dateSecondsPrev=$(date -d $datePrev +%s)
-
-dateSecondsNow=$(date -d $dateNow +%s)
-
-if [[ $( echo $dateSecondsNow $dateSecondsPrev | awk '{print ($1 - $2) / 60 / 60 / 24}') -ge 7 ]] 
+if [[ $( echo $(date -d $dateNow +%s) $(date -d $datePrev +%s) | awk '{print ($1 - $2) / 60 / 60 / 24}') -ge 7 ]] 
 then
 	mkdir "Backup-$dateNow"
 	cd ~/source 
@@ -25,13 +21,16 @@ then
 		cp -R $currentFile ~/Backup-$dateNow		
 	done
 	cd ~
-	echo "Directory Backup-$dateNow was created. Files: $ArrayListFilesInSource" >> backup-report	
+	echo "Directory Backup-$dateNow was created."
+	echo "Files: $ArrayListFilesInSource" >> backup-report	
 else
+	ArrayListFilesInSource=$(ls)
 	cd ~/source 
 	cd ~
-	echo "Directory Backup-$datePrev was created. Files: $ArrayListFilesInSource" >> backup-report	
+	echo "Directory Backup-$datePrev was created."
+	echo "Files: $ArrayListFilesInSource" >> backup-report	
 	cd ~/Backup-$datePrev
-	for currentFile in $(ls)
+	for currentFile in $ArrayListFilesInSource
 	do
 		if [[ -f $currentFile ]]
 		then
