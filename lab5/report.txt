@@ -1,0 +1,25 @@
+
+System memory parameter values:
+5786,4 -total 388,6 -free 2470,0 -used 2927,9 -buff/cashe
+2048,0 -total 2028,2 -free 19,8 -used 2020,5 -buff/cashe
+ 986117 kirillo+  20   0  106388 100340   3104 T   0,0   1,7   0:50.79 mem
+1357796 kirillo+  20   0  106388  97236      0 T   0,0   1,6   0:00.00 mem
+1357976 kirillo+  20   0   17288  11088   3000 S   0,0   0,2   0:02.30 mem
+128002
+1728
+2881
+835701
+835741
+
+System memory parameter values:
+5786,4 -total 381,1 -free 2477,5 -used 2927,8 -buff/cashe
+2048,0 -total 2028,2 -free 19,8 -used 2012,1 -buff/cashe
+ 986117 kirillo+  20   0  106388 100340   3104 T   0,0   1,7   0:50.79 mem
+1357796 kirillo+  20   0  106388  97236      0 T   0,0   1,6   0:00.00 mem
+1357976 kirillo+  20   0   25208  19260   3176 S   0,0   0,3   0:05.21 mem
+128002
+1629
+1728
+2881
+835741
+

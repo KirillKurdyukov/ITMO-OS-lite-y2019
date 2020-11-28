@@ -1,0 +1,9 @@
+#!/bin/bash
+read N K
+cnt=0
+while [[ $cnt -ne $K ]]
+do
+./newmem $N &
+sleep 1
+cnt=$(echo $cnt 1 | awk '{print $1 + $2}')
+done
