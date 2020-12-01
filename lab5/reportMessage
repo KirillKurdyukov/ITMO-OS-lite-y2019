@@ -1,0 +1,48 @@
+Первый этап:
+
+[11553.079592] lowmem_reserve[]: 0 2041 5715 5715 5715
+[11553.079595] lowmem_reserve[]: 0 0 3673 3673 3673
+[11553.079599] lowmem_reserve[]: 0 0 0 0 0
+[11553.079621] Tasks state (memory values in pages):
+[11553.079793] [1430285]  1000 1430285    21350    19067   204800        0             0 mem
+[11553.079798] [1721585]  1000 1721585    21350    19066   200704        0             0 mem
+[11553.079800] [1721587]  1000 1721587    21350    19066   192512        0             0 mem
+[11553.079801] [1721616]  1000 1721616  1107116  1104841  8908800        0             0 mem
+[11553.079822] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/user@1000.service,task=mem,pid=1721616,uid=1000
+
+[11553.079829] Out of memory: Killed process 1721616 (mem) total-vm:4428464kB, anon-rss:4419364kB, file-rss:0kB, shmem-rss:0kB, UID:1000 pgtables:8700kB oom_score_adj:0
+[11553.159930] oom_reaper: reaped process 1721616 (mem), now anon-rss:0kB, file-rss:0kB, shmem-rss:0kB
+
+
+Второй этап:
+
+[10260.021870]  out_of_memory.part.0+0x1df/0x3d0
+[10260.021871]  out_of_memory+0x6d/0xd0
+                mapped:12276 shmem:33844 pagetables:8281 bounce:0
+[10260.021906] Node 0 active_anon:4743808kB inactive_anon:686488kB active_file:1528kB inactive_file:1832kB unevictable:8340kB isolated(anon):0kB isolated(file):0kB mapped:49104kB dirty:0kB writeback:0kB shmem:135376kB shmem_thp: 0kB shmem_pmdmapped: 0kB anon_thp: 0kB writeback_tmp:0kB unstable:0kB all_unreclaimable? yes
+[10260.021908] lowmem_reserve[]: 0 2009 5715 5715 5715
+[10260.021911] lowmem_reserve[]: 0 0 3705 3705 3705
+[10260.021913] lowmem_reserve[]: 0 0 0 0 0
+[10260.021928] Tasks state (memory values in pages):
+[10260.022034] [  11835]  1000 11835   334421   310679  2723840    21473             0 mem1
+[10260.022035] [  11836]  1000 11836   975644   937533  7847936    35963             0 mem2
+[10260.022040] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/user@1000.service,task=mem2,pid=11836,uid=1000
+[10260.022046] Out of memory: Killed process 11836 (mem2) total-vm:3902576kB, anon-rss:3749460kB, file-rss:672kB, shmem-rss:0kB, UID:1000 pgtables:7664kB oom_score_adj:0
+[10260.086448] oom_reaper: reaped process 11836 (mem2), now anon-rss:0kB, file-rss:0kB, shmem-rss:0kB
+[10690.097926]  out_of_memory.part.0+0x1df/0x3d0
+[10690.097927]  out_of_memory+0x6d/0xd0
+                mapped:12281 shmem:38440 pagetables:8440 bounce:0
+[10690.097971] Node 0 active_anon:4734044kB inactive_anon:692756kB active_file:2476kB inactive_file:2612kB unevictable:8340kB isolated(anon):0kB isolated(file):0kB mapped:49124kB dirty:0kB writeback:0kB shmem:153760kB shmem_thp: 0kB shmem_pmdmapped: 0kB anon_thp: 0kB writeback_tmp:0kB unstable:0kB all_unreclaimable? no
+[10690.097974] lowmem_reserve[]: 0 2009 5715 5715 5715
+[10690.097978] lowmem_reserve[]: 0 0 3705 3705 3705
+[10690.097982] lowmem_reserve[]: 0 0 0 0 0
+[10690.098006] Tasks state (memory values in pages):
+[10690.098156] [  11835]  1000 11835  1303268  1230291 10489856    70730             0 mem1
+[10690.098160] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/user@1000.service,task=mem1,pid=11835,uid=1000
+[10690.098167] Out of memory: Killed process 11835 (mem1) total-vm:5213072kB, anon-rss:4920752kB, file-rss:412kB, shmem-rss:0kB, UID:1000 pgtables:10244kB oom_score_adj:0
+[10690.186688] oom_reaper: reaped process 11835 (mem1), now anon-rss:0kB, file-rss:0kB, shmem-rss:0kB
+
+
+
+
+

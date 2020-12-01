@@ -6,8 +6,8 @@ echo "" > report.txt
 while true
 do
 vector+=(1 2 3 4 5 6 7 8 9 10)
-cnt=$(echo $cnt 1 | awk '{print $1 + $2}')
-if [[ $cnt == "10000" ]] 
+cnt=$(($cnt + 1))
+if [[ $cnt == "100000" ]] 
 then 
 ./help
 echo ${#vector[*]} >> report.log

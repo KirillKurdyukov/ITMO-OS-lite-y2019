@@ -1,25 +1,779 @@
 
 System memory parameter values:
-5786,4 -total 388,6 -free 2470,0 -used 2927,9 -buff/cashe
-2048,0 -total 2028,2 -free 19,8 -used 2020,5 -buff/cashe
- 986117 kirillo+  20   0  106388 100340   3104 T   0,0   1,7   0:50.79 mem
-1357796 kirillo+  20   0  106388  97236      0 T   0,0   1,6   0:00.00 mem
-1357976 kirillo+  20   0   17288  11088   3000 S   0,0   0,2   0:02.30 mem
-128002
-1728
-2881
-835701
-835741
+5786,4 -total 2312,9 -free 1749,3 -used 1724,2 -buff/cashe
+2048,0 -total 1986,0 -free 62,0 -used 3182,6 -buff/cashe
+   7543 kirillo+  20   0   87644  81460   3076 S   0,0   1,4   0:00.79 mem
+5774
+1840
+3333
+1692
+7552
 
 System memory parameter values:
-5786,4 -total 381,1 -free 2477,5 -used 2927,8 -buff/cashe
-2048,0 -total 2028,2 -free 19,8 -used 2012,1 -buff/cashe
- 986117 kirillo+  20   0  106388 100340   3104 T   0,0   1,7   0:50.79 mem
-1357796 kirillo+  20   0  106388  97236      0 T   0,0   1,6   0:00.00 mem
-1357976 kirillo+  20   0   25208  19260   3176 S   0,0   0,3   0:05.21 mem
-128002
-1629
-1728
-2881
-835741
+5786,4 -total 2273,7 -free 1826,4 -used 1686,3 -buff/cashe
+2048,0 -total 1986,0 -free 62,0 -used 3142,3 -buff/cashe
+   7543 kirillo+  20   0  165788 159876   3260 S   0,0   2,7   0:01.68 mem
+5774
+1692
+1840
+2439
+2676
+
+System memory parameter values:
+5786,4 -total 2196,9 -free 1903,7 -used 1685,8 -buff/cashe
+2048,0 -total 1986,0 -free 62,0 -used 3067,3 -buff/cashe
+   7543 kirillo+  20   0  243932 238092   3260 S   0,0   4,0   0:02.54 mem
+5774
+11
+1840
+7570
+1
+
+System memory parameter values:
+5786,4 -total 2120,7 -free 1979,8 -used 1686,0 -buff/cashe
+2048,0 -total 1986,0 -free 62,0 -used 2990,4 -buff/cashe
+   7543 kirillo+  20   0  322076 316128   3260 S   0,0   5,3   0:03.40 mem
+5774
+7579
+1692
+1840
+1
+
+System memory parameter values:
+5786,4 -total 2043,4 -free 2057,0 -used 1686,0 -buff/cashe
+2048,0 -total 1986,0 -free 62,0 -used 2913,4 -buff/cashe
+   7543 kirillo+  20   0  400220 394344   3260 S   0,0   6,7   0:04.32 mem
+1692
+1840
+5774
+7588
+1
+
+System memory parameter values:
+5786,4 -total 1965,2 -free 2132,5 -used 1688,8 -buff/cashe
+2048,0 -total 1986,0 -free 62,0 -used 2833,9 -buff/cashe
+   7543 kirillo+  20   0  478364 472340   3260 S   0,0   8,0   0:05.25 mem
+1840
+5774
+1692
+3333
+3540
+
+System memory parameter values:
+5786,4 -total 1910,3 -free 2207,8 -used 1668,4 -buff/cashe
+2048,0 -total 1986,0 -free 62,0 -used 2779,8 -buff/cashe
+   7543 kirillo+  20   0  556508 550588   3260 S   0,0   9,3   0:06.18 mem
+1840
+5774
+1
+2
+3
+
+System memory parameter values:
+5786,4 -total 1850,9 -free 2285,6 -used 1649,9 -buff/cashe
+2048,0 -total 1986,0 -free 62,0 -used 2720,0 -buff/cashe
+   7543 kirillo+  20   0  634652 628572   3260 S   0,0  10,6   0:07.05 mem
+5774
+1
+2
+3
+4
+
+System memory parameter values:
+5786,4 -total 1775,2 -free 2361,4 -used 1649,8 -buff/cashe
+2048,0 -total 1986,0 -free 62,0 -used 2645,0 -buff/cashe
+   7543 kirillo+  20   0  712796 706808   3260 S   0,0  11,9   0:07.91 mem
+5774
+1692
+1840
+7625
+1
+
+System memory parameter values:
+5786,4 -total 1698,7 -free 2438,1 -used 1649,7 -buff/cashe
+2048,0 -total 1986,0 -free 62,0 -used 2568,6 -buff/cashe
+   7543 kirillo+  20   0  790808 784796   3260 S   0,0  13,2   0:08.82 mem
+2439
+1840
+5774
+7634
+1
+
+System memory parameter values:
+5786,4 -total 1622,6 -free 2514,1 -used 1649,7 -buff/cashe
+2048,0 -total 1986,0 -free 62,0 -used 2491,9 -buff/cashe
+   7543 kirillo+  20   0  868952 863044   3260 S   0,0  14,6   0:09.72 mem
+5774
+7644
+1
+2
+3
+
+System memory parameter values:
+5786,4 -total 1546,0 -free 2590,7 -used 1649,7 -buff/cashe
+2048,0 -total 1986,0 -free 62,0 -used 2414,7 -buff/cashe
+   7543 kirillo+  20   0  947096 941232   3260 S   0,0  15,9   0:10.59 mem
+5774
+1692
+1840
+7653
+1
+
+System memory parameter values:
+5786,4 -total 1470,1 -free 2666,7 -used 1649,7 -buff/cashe
+2048,0 -total 1986,0 -free 62,0 -used 2338,8 -buff/cashe
+   7543 kirillo+  20   0 1025240 995,4m   3260 S   0,0  17,2   0:11.48 mem
+5774
+7662
+1692
+1840
+1
+
+System memory parameter values:
+5786,4 -total 1392,5 -free 2744,2 -used 1649,7 -buff/cashe
+2048,0 -total 1986,0 -free 62,0 -used 2261,1 -buff/cashe
+   7543 kirillo+  20   0 1103384   1,0g   3260 S   0,0  18,5   0:12.39 mem
+5774
+1840
+7671
+1
+2
+
+System memory parameter values:
+5786,4 -total 1317,2 -free 2820,5 -used 1648,7 -buff/cashe
+2048,0 -total 1986,0 -free 62,0 -used 2186,0 -buff/cashe
+   7543 kirillo+  20   0 1181528   1,1g   3260 S   0,0  19,8   0:13.29 mem
+1692
+1840
+5774
+7502
+3681
+
+System memory parameter values:
+5786,4 -total 1241,0 -free 2896,6 -used 1648,9 -buff/cashe
+2048,0 -total 1986,0 -free 62,0 -used 2110,5 -buff/cashe
+   7543 kirillo+  20   0 1259672   1,2g   3260 S   0,0  21,2   0:14.19 mem
+5774
+1692
+1840
+3333
+7689
+
+System memory parameter values:
+5786,4 -total 1164,6 -free 2973,0 -used 1648,9 -buff/cashe
+2048,0 -total 1986,0 -free 62,0 -used 2032,7 -buff/cashe
+   7543 kirillo+  20   0 1337684   1,3g   3260 S   0,0  22,5   0:15.09 mem
+5774
+2676
+7698
+1
+2
+
+System memory parameter values:
+5786,4 -total 1088,7 -free 3049,0 -used 1648,8 -buff/cashe
+2048,0 -total 1986,0 -free 62,0 -used 1958,0 -buff/cashe
+   7543 kirillo+  20   0 1415828   1,3g   3260 S   0,0  23,8   0:16.00 mem
+5774
+1840
+7707
+1
+2
+
+System memory parameter values:
+5786,4 -total 1011,9 -free 3125,7 -used 1648,8 -buff/cashe
+2048,0 -total 1986,0 -free 62,0 -used 1881,3 -buff/cashe
+   7543 kirillo+  20   0 1493972   1,4g   3260 S   0,0  25,1   0:16.88 mem
+5774
+1840
+3333
+7717
+1
+
+System memory parameter values:
+5786,4 -total 935,0 -free 3202,6 -used 1648,8 -buff/cashe
+2048,0 -total 1986,0 -free 62,0 -used 1803,5 -buff/cashe
+   7543 kirillo+  20   0 1572116   1,5g   3260 S   0,0  26,4   0:17.77 mem
+1840
+5774
+7726
+1
+2
+
+System memory parameter values:
+5786,4 -total 859,9 -free 3278,2 -used 1648,4 -buff/cashe
+2048,0 -total 1986,0 -free 62,0 -used 1729,2 -buff/cashe
+   7543 kirillo+  20   0 1650260   1,6g   3260 S   0,0  27,8   0:18.63 mem
+5774
+1840
+7735
+1
+2
+
+System memory parameter values:
+5786,4 -total 772,5 -free 3365,6 -used 1648,4 -buff/cashe
+2048,0 -total 1986,0 -free 62,0 -used 1641,0 -buff/cashe
+   7543 kirillo+  20   0 1728404   1,6g   3260 S   0,0  29,1   0:19.53 mem
+5774
+1840
+7745
+1
+2
+
+System memory parameter values:
+5786,4 -total 694,4 -free 3443,6 -used 1648,5 -buff/cashe
+2048,0 -total 1986,0 -free 62,0 -used 1577,1 -buff/cashe
+   7543 kirillo+  20   0 1806548   1,7g   3260 S   0,0  30,4   0:20.44 mem
+5774
+7754
+1692
+1840
+1
+
+System memory parameter values:
+5786,4 -total 631,1 -free 3507,0 -used 1648,4 -buff/cashe
+2048,0 -total 1986,0 -free 62,0 -used 1499,9 -buff/cashe
+   7543 kirillo+  20   0 1884692   1,8g   3260 S   0,0  31,7   0:21.30 mem
+5774
+1692
+1840
+7763
+1
+
+System memory parameter values:
+5786,4 -total 555,3 -free 3582,8 -used 1648,3 -buff/cashe
+2048,0 -total 1986,0 -free 62,0 -used 1424,5 -buff/cashe
+   7543 kirillo+  20   0 1962704   1,9g   3260 S   0,0  33,0   0:22.21 mem
+5774
+1840
+3333
+7772
+1
+
+System memory parameter values:
+5786,4 -total 478,5 -free 3659,4 -used 1648,5 -buff/cashe
+2048,0 -total 1986,0 -free 62,0 -used 1347,3 -buff/cashe
+   7543 kirillo+  20   0 2040848   1,9g   3260 S   0,0  34,3   0:23.10 mem
+1840
+3333
+5774
+7781
+1
+
+System memory parameter values:
+5786,4 -total 402,7 -free 3735,2 -used 1648,5 -buff/cashe
+2048,0 -total 1986,0 -free 62,0 -used 1271,3 -buff/cashe
+   7543 kirillo+  20   0 2118992   2,0g   3260 S   0,0  35,7   0:23.99 mem
+5774
+1840
+3333
+7790
+1
+
+System memory parameter values:
+5786,4 -total 325,3 -free 3812,6 -used 1648,5 -buff/cashe
+2048,0 -total 1986,0 -free 62,0 -used 1194,1 -buff/cashe
+   7543 kirillo+  20   0 2197136   2,1g   3260 S   0,0  37,0   0:24.89 mem
+2676
+3333
+7799
+5774
+1
+
+System memory parameter values:
+5786,4 -total 248,4 -free 3889,6 -used 1648,5 -buff/cashe
+2048,0 -total 1986,0 -free 62,0 -used 1117,1 -buff/cashe
+   7543 kirillo+  20   0 2275280   2,2g   3260 S   0,0  38,3   0:25.78 mem
+5774
+7808
+1692
+1
+2
+
+System memory parameter values:
+5786,4 -total 172,0 -free 3965,9 -used 1648,5 -buff/cashe
+2048,0 -total 1986,0 -free 62,0 -used 1040,7 -buff/cashe
+   7543 kirillo+  20   0 2353424   2,2g   3260 S   0,0  39,6   0:26.68 mem
+5774
+1840
+3681
+7061
+7817
+
+System memory parameter values:
+5786,4 -total 130,8 -free 4042,6 -used 1613,0 -buff/cashe
+2048,0 -total 1984,7 -free 63,2 -used 965,7 -buff/cashe
+   7543 kirillo+  20   0 2431568   2,3g   3260 S   0,0  40,9   0:27.60 mem
+1692
+5774
+7828
+1
+2
+
+System memory parameter values:
+5786,4 -total 124,7 -free 4120,0 -used 1541,8 -buff/cashe
+2048,0 -total 1982,7 -free 65,2 -used 889,7 -buff/cashe
+   7543 kirillo+  20   0 2509712   2,4g   3260 S   0,0  42,3   0:28.47 mem
+1840
+5774
+7837
+1
+2
+
+System memory parameter values:
+5786,4 -total 132,7 -free 4196,5 -used 1457,3 -buff/cashe
+2048,0 -total 1981,7 -free 66,2 -used 813,6 -buff/cashe
+   7543 kirillo+  20   0 2587724   2,5g   3260 S   0,0  43,6   0:29.35 mem
+5774
+7846
+1692
+2676
+1
+
+System memory parameter values:
+5786,4 -total 251,9 -free 4271,2 -used 1263,4 -buff/cashe
+2048,0 -total 1981,5 -free 66,5 -used 740,6 -buff/cashe
+   7543 kirillo+  20   0 2665868   2,5g   3260 S   0,0  44,9   0:30.26 mem
+5774
+7855
+1
+2
+3
+
+System memory parameter values:
+5786,4 -total 175,1 -free 4346,7 -used 1264,6 -buff/cashe
+2048,0 -total 1981,5 -free 66,5 -used 664,2 -buff/cashe
+   7543 kirillo+  20   0 2744012   2,6g   3260 S   0,0  46,2   0:31.17 mem
+5774
+1840
+7864
+1
+2
+
+System memory parameter values:
+5786,4 -total 117,7 -free 4423,5 -used 1245,3 -buff/cashe
+2048,0 -total 1981,2 -free 66,8 -used 587,2 -buff/cashe
+   7543 kirillo+  20   0 2822156   2,7g   3260 S   0,0  47,5   0:32.05 mem
+5774
+1840
+7875
+1
+2
+
+System memory parameter values:
+5786,4 -total 128,3 -free 4498,6 -used 1159,5 -buff/cashe
+2048,0 -total 1981,0 -free 67,0 -used 513,2 -buff/cashe
+   7543 kirillo+  20   0 2900300   2,8g   3260 S   0,0  48,8   0:32.94 mem
+5774
+1840
+7884
+1
+2
+
+System memory parameter values:
+5786,4 -total 111,2 -free 4570,0 -used 1105,2 -buff/cashe
+2048,0 -total 1969,2 -free 78,8 -used 451,8 -buff/cashe
+   7543 kirillo+  20   0 2978444   2,8g   3260 S   0,0  50,2   0:33.82 mem
+127
+1
+2
+3
+4
+
+System memory parameter values:
+5786,4 -total 208,6 -free 4652,6 -used 925,3 -buff/cashe
+2048,0 -total 1979,5 -free 68,5 -used 363,4 -buff/cashe
+   7543 kirillo+  20   0 3056588   2,9g   3260 S   0,0  51,5   0:34.72 mem
+1840
+5774
+1
+2
+3
+
+System memory parameter values:
+5786,4 -total 129,3 -free 4731,7 -used 925,4 -buff/cashe
+2048,0 -total 1979,5 -free 68,5 -used 284,3 -buff/cashe
+   7543 kirillo+  20   0 3134600   3,0g   3260 S   0,0  52,8   0:35.64 mem
+5774
+1692
+1840
+7924
+1
+
+System memory parameter values:
+5786,4 -total 105,7 -free 4803,8 -used 876,9 -buff/cashe
+2048,0 -total 1959,8 -free 88,2 -used 229,5 -buff/cashe
+   7543 kirillo+  20   0 3212744   3,1g   3260 S   0,0  54,1   0:36.53 mem
+1
+2
+3
+4
+6
+
+System memory parameter values:
+5786,4 -total 102,2 -free 4877,1 -used 807,2 -buff/cashe
+2048,0 -total 1949,0 -free 99,0 -used 167,2 -buff/cashe
+   7543 kirillo+  20   0 3290888   3,1g   3260 S   0,0  55,4   0:37.42 mem
+2439
+2676
+7943
+1
+2
+
+System memory parameter values:
+5786,4 -total 109,4 -free 4959,2 -used 717,8 -buff/cashe
+2048,0 -total 1931,2 -free 116,8 -used 100,7 -buff/cashe
+   7543 kirillo+  20   0 3369032   3,2g   3260 S   0,0  56,8   0:38.33 mem
+127
+1
+2
+3
+4
+
+System memory parameter values:
+5786,4 -total 114,8 -free 5020,8 -used 650,8 -buff/cashe
+2048,0 -total 1939,7 -free 108,2 -used 68,2 -buff/cashe
+   7543 kirillo+  20   0 3447176   3,3g   3244 S   0,0  58,1   0:39.21 mem
+5774
+3333
+127
+2439
+7962
+
+System memory parameter values:
+5786,4 -total 107,6 -free 5096,8 -used 582,1 -buff/cashe
+2048,0 -total 1901,0 -free 147,0 -used 52,5 -buff/cashe
+   7543 kirillo+  20   0 3525320   3,4g   3160 S   0,0  59,4   0:40.24 mem
+2553
+3333
+2545
+2676
+7972
+
+System memory parameter values:
+5786,4 -total 118,7 -free 5129,7 -used 538,1 -buff/cashe
+2048,0 -total 1783,6 -free 264,4 -used 68,1 -buff/cashe
+   7543 kirillo+  20   0 3603464   3,4g   2820 S   0,0  60,7   0:41.13 mem
+127
+3333
+10
+7982
+1
+
+System memory parameter values:
+5786,4 -total 122,1 -free 5133,0 -used 531,3 -buff/cashe
+2048,0 -total 1712,2 -free 335,8 -used 65,8 -buff/cashe
+   7543 kirillo+  20   0 3681608   3,5g   2680 S   0,0  62,0   0:42.02 mem
+127
+2439
+3333
+7991
+1
+
+System memory parameter values:
+5786,4 -total 116,4 -free 5151,9 -used 518,1 -buff/cashe
+2048,0 -total 1612,2 -free 435,8 -used 67,9 -buff/cashe
+   7543 kirillo+  20   0 3759620   3,6g   2620 S   0,0  63,3   0:43.10 mem
+1
+2
+3
+4
+6
+
+System memory parameter values:
+5786,4 -total 117,7 -free 5149,1 -used 519,6 -buff/cashe
+2048,0 -total 1550,2 -free 497,8 -used 61,9 -buff/cashe
+   7543 kirillo+  20   0 3837764   3,7g   2620 S   0,0  64,7   0:44.04 mem
+2676
+8013
+1
+2
+3
+
+System memory parameter values:
+5786,4 -total 123,4 -free 5152,9 -used 510,2 -buff/cashe
+2048,0 -total 1482,0 -free 566,0 -used 63,8 -buff/cashe
+   7543 kirillo+  20   0 3915908   3,7g   2620 S   0,0  66,0   0:44.96 mem
+2676
+3333
+1
+2
+3
+
+System memory parameter values:
+5786,4 -total 123,8 -free 5147,3 -used 515,3 -buff/cashe
+2048,0 -total 1400,2 -free 647,8 -used 63,7 -buff/cashe
+   7543 kirillo+  20   0 3994052   3,8g   2556 S   0,0  67,3   0:45.91 mem
+8031
+1
+2
+3
+4
+
+System memory parameter values:
+5786,4 -total 123,5 -free 5157,8 -used 505,1 -buff/cashe
+2048,0 -total 1330,2 -free 717,8 -used 59,0 -buff/cashe
+   7543 kirillo+  20   0 4072196   3,9g   2556 S   0,0  68,6   0:46.84 mem
+2676
+48
+364
+2138
+2439
+
+System memory parameter values:
+5786,4 -total 116,1 -free 5144,7 -used 525,7 -buff/cashe
+2048,0 -total 1180,0 -free 868,0 -used 79,9 -buff/cashe
+   7543 kirillo+  20   0 4150340   4,0g   2500 S   0,0  69,9   0:47.83 mem
+8049
+3333
+1
+2
+3
+
+System memory parameter values:
+5786,4 -total 136,3 -free 5107,1 -used 543,1 -buff/cashe
+2048,0 -total 1086,5 -free 961,5 -used 98,2 -buff/cashe
+   7543 kirillo+  20   0 4228484   4,0g   2500 S   0,0  71,2   0:48.72 mem
+5774
+8059
+2439
+2676
+3333
+
+System memory parameter values:
+5786,4 -total 112,4 -free 5151,0 -used 523,0 -buff/cashe
+2048,0 -total 1051,5 -free 996,5 -used 70,2 -buff/cashe
+   7543 kirillo+  20   0 4306496   4,1g   2500 S   0,0  72,6   0:49.63 mem
+1840
+5774
+8069
+1
+2
+
+System memory parameter values:
+5786,4 -total 139,8 -free 5130,4 -used 516,3 -buff/cashe
+2048,0 -total 964,2 -free 1083,8 -used 88,9 -buff/cashe
+   7543 kirillo+  20   0 4384640   4,2g   2500 S   0,0  73,9   0:50.55 mem
+2138
+3333
+5774
+8078
+1
+
+System memory parameter values:
+5786,4 -total 145,5 -free 5143,5 -used 497,4 -buff/cashe
+2048,0 -total 876,7 -free 1171,2 -used 91,6 -buff/cashe
+   7543 kirillo+  20   0 4462784   4,2g   2500 S   0,0  75,2   0:51.47 mem
+2439
+5774
+3333
+8087
+1
+
+System memory parameter values:
+5786,4 -total 107,3 -free 5202,5 -used 476,6 -buff/cashe
+2048,0 -total 861,0 -free 1187,0 -used 48,8 -buff/cashe
+   7543 kirillo+  20   0 4540928   4,3g   2500 S   0,0  76,5   0:52.41 mem
+8096
+3333
+5774
+1
+2
+
+System memory parameter values:
+5786,4 -total 129,4 -free 5233,6 -used 423,4 -buff/cashe
+2048,0 -total 747,2 -free 1300,8 -used 71,9 -buff/cashe
+   7543 kirillo+  20   0 4619072   4,4g   2500 S   0,0  77,8   0:53.42 mem
+3333
+5774
+887
+8105
+1
+
+System memory parameter values:
+5786,4 -total 138,3 -free 5220,6 -used 427,6 -buff/cashe
+2048,0 -total 664,7 -free 1383,2 -used 85,7 -buff/cashe
+   7543 kirillo+  20   0 4697216   4,5g   2500 S   0,0  79,2   0:54.36 mem
+2676
+1692
+1840
+2439
+8114
+
+System memory parameter values:
+5786,4 -total 108,0 -free 5259,0 -used 419,4 -buff/cashe
+2048,0 -total 626,5 -free 1421,5 -used 54,8 -buff/cashe
+   7543 kirillo+  20   0 4775360   4,5g   2500 S   0,0  80,5   0:55.25 mem
+2439
+1840
+8125
+1
+2
+
+System memory parameter values:
+5786,4 -total 113,0 -free 5270,5 -used 402,9 -buff/cashe
+2048,0 -total 513,7 -free 1534,2 -used 83,6 -buff/cashe
+   7543 kirillo+  20   0 4853504   4,6g   2500 S   0,0  81,8   0:56.18 mem
+2439
+3333
+8134
+1
+2
+
+System memory parameter values:
+5786,4 -total 119,6 -free 5338,2 -used 328,7 -buff/cashe
+2048,0 -total 462,9 -free 1585,1 -used 58,1 -buff/cashe
+   7543 kirillo+  20   0 4931516   4,7g   2500 S   0,0  83,1   0:57.10 mem
+5774
+8143
+1
+2
+3
+
+System memory parameter values:
+5786,4 -total 129,2 -free 5342,2 -used 315,0 -buff/cashe
+2048,0 -total 378,2 -free 1669,8 -used 65,8 -buff/cashe
+   7543 kirillo+  20   0 5009660   4,7g   2500 S   0,0  83,5   0:58.02 mem
+2138
+2676
+8152
+1
+2
+
+System memory parameter values:
+5786,4 -total 150,1 -free 5339,6 -used 296,7 -buff/cashe
+2048,0 -total 293,0 -free 1755,0 -used 83,3 -buff/cashe
+   7543 kirillo+  20   0 5087804   4,7g   2500 S   0,0  83,6   0:58.99 mem
+2439
+2138
+5774
+376
+2676
+
+System memory parameter values:
+5786,4 -total 129,4 -free 5373,1 -used 283,9 -buff/cashe
+2048,0 -total 217,2 -free 1830,8 -used 85,1 -buff/cashe
+   7543 kirillo+  20   0 5165948   4,7g   2500 S   0,0  83,8   0:59.92 mem
+2676
+2439
+2545
+5774
+8171
+
+System memory parameter values:
+5786,4 -total 147,8 -free 5360,5 -used 278,2 -buff/cashe
+2048,0 -total 147,0 -free 1901,0 -used 79,0 -buff/cashe
+   7543 kirillo+  20   0 5244092   4,7g   2500 S   0,0  84,0   1:00.83 mem
+3333
+11
+1840
+1
+2
+
+System memory parameter values:
+5786,4 -total 115,2 -free 5379,7 -used 291,5 -buff/cashe
+2048,0 -total 72,5 -free 1975,5 -used 62,5 -buff/cashe
+   7543 kirillo+  20   0 5322236   4,8g   2500 S   0,0  84,1   1:01.81 mem
+2676
+60
+918
+2439
+3333
+
+System memory parameter values:
+5786,4 -total 120,6 -free 5388,1 -used 277,7 -buff/cashe
+2048,0 -total 6,4 -free 2041,6 -used 59,8 -buff/cashe
+   7543 kirillo+  20   0 5400380   4,8g   2500 S   0,0  84,4   1:02.78 mem
+2439
+8198
+1600
+3333
+5774
+
+System memory parameter values:
+5786,4 -total 102,5 -free 5457,9 -used 226,1 -buff/cashe
+2048,0 -total 0,0 -free 2048,0 -used 24,6 -buff/cashe
+   7543 kirillo+  20   0 5478524   4,8g      0 S   0,0  85,1   1:03.78 mem
+2138
+127
+2439
+2676
+2545
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

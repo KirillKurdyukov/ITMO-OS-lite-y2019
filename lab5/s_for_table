@@ -1,0 +1,10 @@
+#! /bin/bash
+
+awk 'NR % 10 == 3 { print $1 " " $3  " " $5 " " $7}' report1.txt > first_line
+awk 'NR % 10 == 4 { print $1 " " $3  " " $5 " " $7}' report1.txt > second_line
+
+awk 'NR % 10 == 6 { print $1 }' report1.txt > top1
+awk 'NR % 10 == 7 { print $1 }' report1.txt > top2
+awk 'NR % 10 == 8 { print $1 }' report1.txt > top3
+awk 'NR % 10 == 9 { print $1 }' report1.txt > top4
+awk 'NR % 10 == 0 { print $1 }' report1.txt > top5
