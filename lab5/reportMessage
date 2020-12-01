@@ -42,6 +42,106 @@
 [10690.098167] Out of memory: Killed process 11835 (mem1) total-vm:5213072kB, anon-rss:4920752kB, file-rss:412kB, shmem-rss:0kB, UID:1000 pgtables:10244kB oom_score_adj:0
 [10690.186688] oom_reaper: reaped process 11835 (mem1), now anon-rss:0kB, file-rss:0kB, shmem-rss:0kB
 
+2 Эксперемент:
+
+[ 5768.088439] [   7945]  1000  7945   266474   177145  2166784    87007             0 newmem
+[ 5768.088439] [   7950]  1000  7950   226379   166990  1855488    57029             0 newmem
+[ 5768.088440] [   7955]  1000  7955   202289   173784  1658880    26197             0 newmem
+[ 5768.088441] [   7960]  1000  7960   227567   225223  1863680        1             0 newmem
+[ 5768.088441] [   7965]  1000  7965   133814   131531  1105920        0             0 newmem
+[ 5768.088442] [   7970]  1000  7970   102068    99767   860160        0             0 newmem
+[ 5768.088443] [   7975]  1000  7975    91970    89664   765952        0             0 newmem
+[ 5768.088444] [   7980]  1000  7980    86525    84273   733184        0             0 newmem
+[ 5768.088444] [   7985]  1000  7985    66857    64598   573440        0             0 newmem
+[ 5768.088445] [   7990]  1000  7990    53393    51118   462848        0             0 newmem
+[ 5768.088448] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/user@1000.service,task=newmem,pid=7945,uid=1000
+[ 5768.088454] Out of memory: Killed process 7945 (newmem) total-vm:1065896kB, anon-rss:708340kB, file-rss:240kB, shmem-rss:0kB, UID:1000 pgtables:2116kB oom_score_adj:0
+[ 5768.112345] oom_reaper: reaped process 7945 (newmem), now anon-rss:0kB, file-rss:0kB, shmem-rss:0kB
+[ 5801.933441] [   7950]  1000  7950   263174   175715  2150400    85103             0 newmem
+[ 5801.933442] [   7955]  1000  7955   236378   180288  1933312    53781             0 newmem
+[ 5801.933443] [   7960]  1000  7960   257135   227754  2101248    27010             0 newmem
+[ 5801.933444] [   7965]  1000  7965   144935   142524  1191936       51             0 newmem
+[ 5801.933446] [   7970]  1000  7970   147014   144672  1220608        0             0 newmem
+[ 5801.933447] [   7975]  1000  7975   120944   118579  1003520        0             0 newmem
+[ 5801.933448] [   7980]  1000  7980   110945   108582   933888        0             0 newmem
+[ 5801.933449] [   7985]  1000  7985    95303    92974   802816        0             0 newmem
+[ 5801.933450] [   7990]  1000  7990    80783    78440   684032        0             0 newmem
+[ 5801.933455] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/user@1000.service,task=newmem,pid=7950,uid=1000
+[ 5801.933462] Out of memory: Killed process 7950 (newmem) total-vm:1052696kB, anon-rss:702856kB, file-rss:4kB, shmem-rss:0kB, UID:1000 pgtables:2100kB oom_score_adj:0
+[ 5801.951148] oom_reaper: reaped process 7950 (newmem), now anon-rss:0kB, file-rss:0kB, shmem-rss:0kB
+[ 5829.944470] [   7955]  1000  7955   265517   179328  2166784    83846             0 newmem
+[ 5829.944471] [   7960]  1000  7960   258092   198510  2109440    57229             0 newmem
+[ 5829.944472] [   7965]  1000  7965   173513   157310  1421312    13897             0 newmem
+[ 5829.944473] [   7970]  1000  7970   195359   191019  1609728     2069             0 newmem
+[ 5829.944475] [   7975]  1000  7975   172523   170226  1413120        0             0 newmem
+[ 5829.944476] [   7980]  1000  7980   111704   109388   937984        0             0 newmem
+[ 5829.944477] [   7985]  1000  7985   154901   152555  1277952        0             0 newmem
+[ 5829.944478] [   7990]  1000  7990   115829   113469   962560        0             0 newmem
+[ 5829.944483] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/user@1000.service,task=newmem,pid=7955,uid=1000
+[ 5829.944494] Out of memory: Killed process 7955 (newmem) total-vm:1062068kB, anon-rss:717312kB, file-rss:0kB, shmem-rss:0kB, UID:1000 pgtables:2116kB oom_score_adj:0
+[ 5829.962902] oom_reaper: reaped process 7955 (newmem), now anon-rss:0kB, file-rss:0kB, shmem-rss:0kB
+[ 5876.831248] newmem invoked oom-killer: gfp_mask=0x100cca(GFP_HIGHUSER_MOVABLE), order=0, oom_score_adj=0
+[ 5876.831251] CPU: 4 PID: 7960 Comm: newmem Not tainted 5.4.0-54-generic #60-Ubuntu
+[ 5876.831494] [   7960]  1000  7960   313070   217641  2547712    93104             0 newmem
+[ 5876.831495] [   7965]  1000  7965   181631   148285  1486848    31042             0 newmem
+[ 5876.831496] [   7970]  1000  7970   246476   224516  2015232    19639             0 newmem
+[ 5876.831497] [   7975]  1000  7975   187142   175632  1531904     9188             0 newmem
+[ 5876.831498] [   7980]  1000  7980   176021   173709  1454080        0             0 newmem
+[ 5876.831499] [   7985]  1000  7985   217634   215313  1781760        0             0 newmem
+[ 5876.831501] [   7990]  1000  7990   119624   117300   995328        0             0 newmem
+[ 5876.831506] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/user@1000.service,task=newmem,pid=7960,uid=1000
+[ 5876.831513] Out of memory: Killed process 7960 (newmem) total-vm:1252280kB, anon-rss:870564kB, file-rss:0kB, shmem-rss:0kB, UID:1000 pgtables:2488kB oom_score_adj:0
+[ 5876.863090] oom_reaper: reaped process 7960 (newmem), now anon-rss:0kB, file-rss:0kB, shmem-rss:0kB
+[ 5960.814382] newmem invoked oom-killer: gfp_mask=0x100dca(GFP_HIGHUSER_MOVABLE|__GFP_ZERO), order=0, oom_score_adj=0
+[ 5960.814385] CPU: 5 PID: 7985 Comm: newmem Not tainted 5.4.0-54-generic #60-Ubuntu
+[ 5960.814623] [   7965]  1000  7965   191102   134814  1564672    54001             0 newmem
+[ 5960.814624] [   7970]  1000  7970   338744   291838  2760704    44586             0 newmem
+[ 5960.814625] [   7975]  1000  7975   188231   153449  1540096    32447             0 newmem
+[ 5960.814626] [   7980]  1000  7980   177341   155833  1462272    19194             0 newmem
+[ 5960.814627] [   7985]  1000  7985   316535   308569  2576384     5655             0 newmem
+[ 5960.814628] [   7990]  1000  7990   215192   212877  1761280        0             0 newmem
+[ 5960.814634] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/user@1000.service,task=newmem,pid=7970,uid=1000
+[ 5960.814642] Out of memory: Killed process 7970 (newmem) total-vm:1354976kB, anon-rss:1167352kB, file-rss:0kB, shmem-rss:0kB, UID:1000 pgtables:2696kB oom_score_adj:0
+[ 5960.853872] oom_reaper: reaped process 7970 (newmem), now anon-rss:0kB, file-rss:0kB, shmem-rss:0kB
+[ 6020.469938] newmem invoked oom-killer: gfp_mask=0x100cca(GFP_HIGHUSER_MOVABLE), order=0, oom_score_adj=0
+[ 6020.469940] CPU: 0 PID: 7985 Comm: newmem Not tainted 5.4.0-54-generic #60-Ubuntu
+[ 6020.470184] [   7965]  1000  7965   350294   283196  2842624    64772             0 newmem
+[ 6020.470185] [   7975]  1000  7975   192323   146521  1572864    43480             0 newmem
+[ 6020.470186] [   7980]  1000  7980   179057   148576  1478656    28154             0 newmem
+[ 6020.470187] [   7985]  1000  7985   472394   455141  3821568    14942             0 newmem
+[ 6020.470188] [   7990]  1000  7990   240074   232186  1961984     5568             0 newmem
+[ 6020.470193] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/user@1000.service,task=newmem,pid=7985,uid=1000
+[ 6020.470200] Out of memory: Killed process 7985 (newmem) total-vm:1889576kB, anon-rss:1820564kB, file-rss:0kB, shmem-rss:0kB, UID:1000 pgtables:3732kB oom_score_adj:0
+[ 6020.502425] oom_reaper: reaped process 7985 (newmem), now anon-rss:0kB, file-rss:0kB, shmem-rss:0kB
+[ 6058.229541] newmem invoked oom-killer: gfp_mask=0x100dca(GFP_HIGHUSER_MOVABLE|__GFP_ZERO), order=0, oom_score_adj=0
+[ 6058.229543] CPU: 0 PID: 7975 Comm: newmem Not tainted 5.4.0-54-generic #60-Ubuntu
+[ 6058.229781] [   7965]  1000  7965   412994   341880  3342336    68851             0 newmem
+[ 6058.229782] [   7975]  1000  7975   256640   206693  2088960    47694             0 newmem
+[ 6058.229783] [   7980]  1000  7980   450977   416522  3657728    32216             0 newmem
+[ 6058.229784] [   7990]  1000  7990   317591   305972  2580480     9363             0 newmem
+[ 6058.229789] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/user@1000.service,task=newmem,pid=7980,uid=1000
+[ 6058.229796] Out of memory: Killed process 7980 (newmem) total-vm:1803908kB, anon-rss:1665760kB, file-rss:328kB, shmem-rss:0kB, UID:1000 pgtables:3572kB oom_score_adj:0
+[ 6058.260654] oom_reaper: reaped process 7980 (newmem), now anon-rss:0kB, file-rss:0kB, shmem-rss:0kB
+[ 6119.838103] newmem invoked oom-killer: gfp_mask=0x100cca(GFP_HIGHUSER_MOVABLE), order=0, oom_score_adj=0
+[ 6119.838106] CPU: 2 PID: 7965 Comm: newmem Not tainted 5.4.0-54-generic #60-Ubuntu
+[ 6119.838280] [   7965]  1000  7965   487970   409066  3944448    76569             0 newmem
+[ 6119.838281] [   7975]  1000  7975   569150   511783  4591616    55042             0 newmem
+[ 6119.838282] [   7990]  1000  7990   380654   361123  3088384    17242             0 newmem
+[ 6119.838285] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/user@1000.service,task=newmem,pid=7975,uid=1000
+[ 6119.838290] Out of memory: Killed process 7975 (newmem) total-vm:2276600kB, anon-rss:2047132kB, file-rss:0kB, shmem-rss:0kB, UID:1000 pgtables:4484kB oom_score_adj:0
+[ 6119.901132] oom_reaper: reaped process 7975 (newmem), now anon-rss:0kB, file-rss:0kB, shmem-rss:0kB
+[ 6258.521426] [   7965]  1000  7965   761276   664800  6135808    94159             0 newmem
+[ 6258.521427] [   7990]  1000  7990   657722   631008  5308416    24410             0 newmem
+[ 6258.521429] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/user@1000.service,task=newmem,pid=7965,uid=1000
+[ 6258.521436] Out of memory: Killed process 7965 (newmem) total-vm:3045104kB, anon-rss:2659200kB, file-rss:0kB, shmem-rss:0kB, UID:1000 pgtables:5992kB oom_score_adj:0
+[ 6258.606486] oom_reaper: reaped process 7965 (newmem), now anon-rss:0kB, file-rss:0kB, shmem-rss:0kB
+[ 6361.604139] newmem invoked oom-killer: gfp_mask=0x100dca(GFP_HIGHUSER_MOVABLE|__GFP_ZERO), order=0, oom_score_adj=0
+[ 6361.604142] CPU: 3 PID: 7990 Comm: newmem Not tainted 5.4.0-54-generic #60-Ubuntu
+[ 6361.604291] [   7990]  1000  7990  1420913  1308142 11423744   110544             0 newmem
+[ 6361.604293] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/user@1000.service,task=newmem,pid=7990,uid=1000
+[ 6361.604299] Out of memory: Killed process 7990 (newmem) total-vm:5683652kB, anon-rss:5232072kB, file-rss:496kB, shmem-rss:0kB, UID:1000 pgtables:11156kB oom_score_adj:0
+[ 6361.709399] oom_reaper: reaped process 7990 (newmem), now anon-rss:0kB, file-rss:0kB, shmem-rss:0kB
+
 
 
 
