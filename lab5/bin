@@ -1,0 +1,22 @@
+#! /bin/bash
+
+l=1
+r=20000000
+while [ $(($r - $l))   ]
+do
+	if [ -f ans ]
+	then
+ 		rm ans
+	fi
+
+	mid=$(( ($l + $r) / 2  ))
+	./start $mid 30 
+	count=$(wc -l ans)
+	if [ $count -eq 30  ] 
+	then
+		l=$mid
+	else
+		r=$mid
+	fi
+done
+echo $l > final

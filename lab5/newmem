@@ -8,4 +8,5 @@ then
 exit 0
 fi
 done
+echo 'OK' >> ans
 
