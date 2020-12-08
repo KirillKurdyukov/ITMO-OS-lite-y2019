@@ -1,0 +1,9 @@
+chcp 1251
+systeminfo > SYSTEM_INFO.txt
+wmic diskdrive get model, serialNumber, size, mediaType > DISK.txt
+mkdir TEST
+set labdir=C:\LAB6\task1
+xcopy %labdir% %labdir%\TEST
+cd TEST
+dir /b > dir.txt
+for %i in (*) do if not "%i"=="dir.txt" del "%i"
