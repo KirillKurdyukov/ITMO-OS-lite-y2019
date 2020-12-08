@@ -1,0 +1,7 @@
+chcp 1251
+net start > C:\LAB6\task3\net_1.txt
+net stop dnscache
+timeout /t 5
+net start > C:\LAB6\task3\net_2.txt
+fc C:\lab\net_1.txt C:\lab\net_2.txt > net_res.txt
+net start dnscache
