@@ -1,4 +1,4 @@
-chcp 1251
+chcp 1251 
 systeminfo > SYSTEM_INFO.txt
 wmic diskdrive get model, serialNumber, size, mediaType > DISK.txt
 mkdir TEST

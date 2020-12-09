@@ -11,6 +11,6 @@ schtasks /Create /SC MINUTE /TN copy /TR copy.cmd
 schtasks /Query | find "copy"
 schtasts /Delete copy
 
-fc C:\cd\copy_file.exe \\%computername%\temp\copy_file.exe
+fc C:\LAB6\task2\copy_file.txt \\%computername%\temp\copy_file.txt
 
 ./copy.cmd
