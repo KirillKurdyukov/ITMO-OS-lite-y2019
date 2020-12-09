@@ -1,26 +1,16 @@
-set local=C:\LAB6\task2
-set /a hour=%time:~0,2%+0
-set /a minute=%time:~3,2%+0
-set /a minute=%minute%+1
-echo OK
-schtasks /create /SC once /TN my_copy /TR "C:\Windows\System32\xcopy.exe /Z %local%\m.txt \\%computername%\moya_zhopy" /ST %hour%:%minute%
 
-echo OK
+Панель управления -> Система и безопасность -> Система -> Имя Компьютера
+//%computername%
 
+./copy.cmd
+copy.cmd :
+	xcopy /Z C:\LAB6\task2\copy_file.txt \\%computername%\temp\copy_file.txt
 
-@:loop
-@tasklist /FI "IMAGENAME eq my_copy" 2>NUL | find /I /N "my_copy">NUL
-@if "%ERRORLEVEL%"=="0" goto :ParseError
-@goto loop
+schtasks /Create /SC MINUTE /TN copy /TR copy.cmd
 
+schtasks /Query | find "copy"
+schtasts /Delete copy
 
-:ParseError
+fc C:\cd\copy_file.exe \\%computername%\temp\copy_file.exe
 
-echo ok
-TASKKILL /IM xcopy
-::fc %local%\m.txt \\%computername%\moya_zhopy > diff1.txt
-
-xcopy /Z %local%\m.txt \\%computername%\moya_zhopy
-
-::fc %local%\m.txt \\%computername%\moya_zhopy > diff2.txt
-sleep 100
+./copy.cmd
